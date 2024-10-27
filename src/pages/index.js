@@ -1,4 +1,5 @@
 import Header from '@/components/header'
+import Intro from '@/components/intro'
 import { useState } from 'react';
 
 
@@ -10,6 +11,7 @@ export default function Home() {
         <Header setScrollBlock={setScrollBlock}/>
         {/* main made for scrollblock class on mobile menu open */}
         <main className={`${scrollBlock ? 'fixed' : ''}`}>
+          <Intro/>
         </main>
     </div>
   );
