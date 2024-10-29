@@ -1,6 +1,8 @@
 import Header from '@/components/header'
+import Options from '@/components/options'
 import Intro from '@/components/intro'
 import { useState } from 'react';
+import Features from '@/components/features'
 
 
 export default function Home() {
@@ -12,6 +14,8 @@ export default function Home() {
         {/* main made for scrollblock class on mobile menu open */}
         <main className={`${scrollBlock ? 'fixed' : ''}`}>
           <Intro/>
+          <Options/>
+          <Features/>
         </main>
     </div>
   );
