@@ -1,4 +1,6 @@
 import Header from '@/components/header'
+import Reviews from '@/components/reviews'
+import Integration from '@/components/integration'
 import Options from '@/components/options'
 import Intro from '@/components/intro'
 import { useState } from 'react';
@@ -16,6 +18,8 @@ export default function Home() {
           <Intro/>
           <Options/>
           <Features/>
+          <Integration/>
+          <Reviews/>
         </main>
     </div>
   );
