@@ -1,10 +1,12 @@
 import Header from '@/components/header'
+import Learning from '@/components/learning'
 import Reviews from '@/components/reviews'
 import Integration from '@/components/integration'
 import Options from '@/components/options'
 import Intro from '@/components/intro'
 import { useState } from 'react';
 import Features from '@/components/features'
+import CustomersSay from '@/components/customersSay'
 
 
 export default function Home() {
@@ -20,6 +22,8 @@ export default function Home() {
           <Features/>
           <Integration/>
           <Reviews/>
+          <CustomersSay/>
+          <Learning/>
         </main>
     </div>
   );
