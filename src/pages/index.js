@@ -1,4 +1,5 @@
 import Header from '@/components/header'
+import Footer from '@/components/footer'
 import Learning from '@/components/learning'
 import Reviews from '@/components/reviews'
 import Integration from '@/components/integration'
@@ -24,6 +25,7 @@ export default function Home() {
           <Reviews/>
           <CustomersSay/>
           <Learning/>
+          <Footer/>
         </main>
     </div>
   );
