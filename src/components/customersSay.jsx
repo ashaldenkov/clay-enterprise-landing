@@ -50,7 +50,7 @@ const CustomersSay = () => {
                       height={12}
                       alt="" 
                     />
-                    <div>23BG's innate multi-source data enrichment paired with customized GPT prompts offers powerful combination of AI and data orchestration for GTM teams.</div>
+                    <div>23BG&aposs innate multi-source data enrichment paired with customized GPT prompts offers powerful combination of AI and data orchestration for GTM teams.</div>
                     <div className='mt-auto border-t border-black pt-8 flex justify-between items-start'>
                       <div className='flex gap-2 items-end'>
                         <Image 
@@ -88,7 +88,7 @@ const CustomersSay = () => {
                       height={12}
                       alt="" 
                     />
-                    <div>23BG should be an essential pillar of every company's GTM stack, enabling outbound built on the highest quality data foundation possible. Now you can automate hours of manual research so sales teams can focus on selling.</div>
+                    <div>23BG should be an essential pillar of every company&aposs GTM stack, enabling outbound built on the highest quality data foundation possible. Now you can automate hours of manual research so sales teams can focus on selling.</div>
                     <div className='mt-auto border-t border-black pt-8 flex justify-between items-start'>
                       <div className='flex gap-2 items-end'>
                         <Image 
@@ -126,7 +126,7 @@ const CustomersSay = () => {
                       height={12}
                       alt="" 
                     />
-                    <div>23BG is a game changer for marketing, data, and operations. We have tripled our enrichment rate with 23BG’s combination of data providers vs. our previous solution. We're using the best aggregate results across a waterfall of data sources, and implementing complex workflow logic even beyond enrichment—of course powered by AI. 23BG makes it easy to use AI for GTM initiatives, unlocking new workflows that were infeasible before.</div>
+                    <div>23BG is a game changer for marketing, data, and operations. We have tripled our enrichment rate with 23BG&aposs combination of data providers vs. our previous solution. We&aposre using the best aggregate results across a waterfall of data sources, and implementing complex workflow logic even beyond enrichment—of course powered by AI. 23BG makes it easy to use AI for GTM initiatives, unlocking new workflows that were infeasible before.</div>
                     <div className='mt-auto border-t border-black pt-8 flex justify-between items-start'>
                       <div className='flex gap-2 items-end'>
                         <Image 

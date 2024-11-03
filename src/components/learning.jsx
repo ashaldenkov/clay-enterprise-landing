@@ -202,7 +202,7 @@ const Learning = () => {
                         alt="" 
                       />
                     </div>
-                    <div className='mb-4 text-2xl'>23BG's Chrome extension</div>
+                    <div className='mb-4 text-2xl'>23BG&aposs Chrome extension</div>
                     <div className='mb-4'>23BG’s Chrome Extension makes it wicked easy to find leads almost anywhere on the internet</div>
                     <Link href='' className='mt-auto w-fit h-fit rounded flex items-center hover:opacity-80 group transition duration-300'>
                         <div className='text-nowrap text-sm'>Explore Chrome Extension</div>

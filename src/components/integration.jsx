@@ -9,7 +9,7 @@ const Integration = () => {
       <div className='py-[16px] md:py-[32px] lg:py-[64px]'>
         <div className='lg:flex'>
             <div className='text-3xl md:text-4xl lg:text-5xl mb-8 lg:basis-1/2'>23BG in your tech stack</div>
-            <div className='md:text-lg lg:text-xl mb-8 lg:basis-1/2'>With a CRM, Clay, and an email sending tool, you're ready to send any outreach campaign.</div>
+            <div className='md:text-lg lg:text-xl mb-8 lg:basis-1/2'>With a CRM, Clay, and an email sending tool, you&aposre ready to send any outreach campaign.</div>
         </div>
         <div className='w-full h-fit bg-socials mt-[48px] flex justify-center items-center'>
         <Image 
