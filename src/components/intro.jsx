@@ -20,7 +20,6 @@ const Intro = () => {
             <div className='absolute translate-y-[calc(50%+2px)] translate-x-[50px] w-[90vw] md:w-[76vw] lg:w-[40vw] pointer-events-none'>
                 <Image 
                 src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/66faaa52ed96045510ba6b81_img-claymation-chord.png" 
-                loading="lazy" 
                 width={1600}
                 height={444}
                 sizes="(max-width: 767px) 90vw, (max-width: 991px) 76vw, 55vw" 

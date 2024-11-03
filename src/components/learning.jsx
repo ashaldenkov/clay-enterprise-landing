@@ -50,7 +50,6 @@ const Learning = () => {
                     <div className='rounded-lg mb-4 w-full h-[146px] overflow-hidden'>
                       <Image 
                         src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/667aaafa589fa709b9e5af02_uni.avif" 
-                        loading="lazy" 
                         width={800}
                         height={483}
                         className='object-cover'
@@ -79,7 +78,6 @@ const Learning = () => {
                     <div className='rounded-lg mb-4 w-full h-[146px] overflow-hidden'>
                       <Image 
                         src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/66b1d628d8d2c551e76e54c1_img-automated-inbound.webp" 
-                        loading="lazy" 
                         width={800}
                         height={639}
                         className='object-cover'
@@ -108,7 +106,6 @@ const Learning = () => {
                     <div className='rounded-lg mb-4 w-full h-[146px] overflow-hidden'>
                       <Image 
                         src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/667aaad3cf4abed74dcdfc01_templates.webp" 
-                        loading="lazy" 
                         width={800}
                         height={490}
                         className='object-cover'

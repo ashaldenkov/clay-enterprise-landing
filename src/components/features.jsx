@@ -19,7 +19,6 @@ const Features = () => {
               <div className='w-fit animate-FadeIn h-[550px] rounded flex items-center justify-center overflow-hidden bg-[#f8cc65]'>
                 <Image 
                 src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/667c6fe5e3e6ba2b534ed974_1-contact-information-updated.webp" 
-                loading="lazy" 
                 width={550}
                 height={550}
                 sizes='(max-width: 991px) 100vw, 36vw'
@@ -33,7 +32,6 @@ const Features = () => {
             <div className='h-[550px] animate-FadeIn rounded flex items-center justify-center overflow-hidden bg-[#038ff7]'>
               <Image 
               src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/667b0818c24902a0664a415e_2_intent_data.webp" 
-              loading="lazy" 
               width={550}
               height={550}
               sizes="100vw" 
@@ -46,7 +44,6 @@ const Features = () => {
             <div className='h-full animate-FadeIn rounded flex items-center justify-center overflow-hidden bg-[#a789fe]'>
               <Image 
               src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/667b0818682e595eca4f6425_3_firmographic.webp" 
-              loading="lazy" 
               width={526}
               height={526}
               sizes="100vw" 
@@ -181,7 +178,6 @@ const Features = () => {
             bg-[url("https://cdn.prod.website-files.com/61477f2c24a826836f969afe/65e5d9bcf1b8b39167d7d74a_claymation-green.webp"),linear-gradient(to_bottom,rgba(4,126,74,1),rgba(4,126,74,1))]'>
               <Image 
               src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/667c7056ab522b4497a01523_1-contact-information-tablet.webp" 
-              loading="lazy" 
               width={500}
               height={500}
               sizes="(max-width: 479px) 83vw, (max-width: 767px) 84vw, (max-width: 991px) 526px, 100vw" 
@@ -199,7 +195,6 @@ const Features = () => {
             bg-[url("https://cdn.prod.website-files.com/61477f2c24a826836f969afe/66591051c3654b176d0fec29_blue-bg_1x.webp")]'>
               <Image 
               src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/667b0c33e0f11182606ad96b_2_intent_data-tablet.webp" 
-              loading="lazy" 
               width={500}
               height={500}
               sizes="(max-width: 479px) 83vw, (max-width: 767px) 84vw, (max-width: 991px) 526px, 100vw" 
@@ -217,7 +212,6 @@ const Features = () => {
             bg-[linear-gradient(to_bottom,#9170e6,#9170e6)]'>
               <Image 
               src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/667b0c330b0ee6ffac47decc_3_firmographic-tablet.webp" 
-              loading="lazy" 
               width={526}
               height={526}
               sizes="(max-width: 479px) 83vw, (max-width: 767px) 84vw, (max-width: 991px) 526px, 100vw" 
@@ -235,7 +229,6 @@ const Features = () => {
             bg-[#eff1f3] overflow-y-scroll relative'>
               <Image 
               src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/65aa9c8aaa5008abcaffbe28_img-claymation-arrow.png" 
-              loading="lazy" 
               width={500}
               height={666}
               className='w-[150px] absolute right-0 bottom-0'
@@ -401,7 +394,6 @@ const Features = () => {
                   bg-[url("https://cdn.prod.website-files.com/61477f2c24a826836f969afe/66591051c3654b176d0fec29_blue-bg_1x.webp")]'>
                     <Image 
                       src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/667ac73de112f572b1617117_table-inbound.webp" 
-                      loading="lazy" 
                       width={800}
                       height={375}
                       sizes="(max-width: 479px) 71vw, (max-width: 767px) 66vw, (max-width: 991px) 71vw, 41vw" 
@@ -423,7 +415,6 @@ const Features = () => {
                   lg: bg-[url("https://cdn.prod.website-files.com/61477f2c24a826836f969afe/66591022c3654b176d0fbd4c_yellow_bg_1x.webp")]'>
                     <Image 
                       src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/667ac773196275007a83447f_table-outbound.webp" 
-                      loading="lazy" 
                       width={800}
                       height={375}
                       sizes="(max-width: 479px) 71vw, (max-width: 767px) 66vw, (max-width: 991px) 71vw, 41vw" 
@@ -441,7 +432,6 @@ const Features = () => {
         <div className='py-[16px] md:py-[32px] lg:py-[64px] lg:flex lg:gap-8'>
           <Image 
             src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/670dc40ac05d9be676922330_SDR-package.avif" 
-            loading="lazy" 
             width={500}
             height={500}
             sizes="(max-width: 991px) 90vw, 45vw" 

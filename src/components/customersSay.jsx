@@ -45,7 +45,6 @@ const CustomersSay = () => {
                   <div className='bg-white w-full h-full rounded flex gap-4 flex-col justify-between p-4'>
                     <Image 
                       src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/664d6fb7115ae062aa4da176_quote-icon.svg" 
-                      loading="lazy" 
                       width={17}
                       height={12}
                       alt="" 
@@ -55,7 +54,6 @@ const CustomersSay = () => {
                       <div className='flex gap-2 items-end'>
                         <Image 
                         src="https://cdn.prod.website-files.com/61702af2e3966e09c4101538/66756a7232ecd63cd322883e_keith-jones.avif" 
-                        loading="lazy" 
                         width={76}
                         height={76}
                         className='rounded border-2 border-black'
@@ -68,7 +66,6 @@ const CustomersSay = () => {
                       </div>
                       <Image 
                       src="https://cdn.prod.website-files.com/61702af2e3966e09c4101538/66756b483018a6f31e1eb0b3_img-logo-icon-openai.svg" 
-                      loading="lazy" 
                       width={48}
                       height={48}
                       alt="" 
@@ -83,7 +80,6 @@ const CustomersSay = () => {
                   <div className='bg-white w-full h-full rounded flex gap-4 flex-col justify-between p-4'>
                     <Image 
                       src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/664d6fb7115ae062aa4da176_quote-icon.svg" 
-                      loading="lazy" 
                       width={17}
                       height={12}
                       alt="" 
@@ -93,7 +89,6 @@ const CustomersSay = () => {
                       <div className='flex gap-2 items-end'>
                         <Image 
                         src="https://cdn.prod.website-files.com/61702af2e3966e09c4101538/667c376cac4c1c2f449dc5c6_image%20(11).avif" 
-                        loading="lazy" 
                         width={76}
                         height={76}
                         className='rounded border-2 border-black'
@@ -106,7 +101,6 @@ const CustomersSay = () => {
                       </div>
                       <Image 
                       src="https://cdn.prod.website-files.com/61702af2e3966e09c4101538/667c3793992d2925d4708be9_images.avif" 
-                      loading="lazy" 
                       width={96}
                       height={37}
                       alt="" 
@@ -121,7 +115,6 @@ const CustomersSay = () => {
                   <div className='bg-white w-full h-full rounded flex gap-4 flex-col justify-between p-4'>
                     <Image 
                       src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/664d6fb7115ae062aa4da176_quote-icon.svg" 
-                      loading="lazy" 
                       width={17}
                       height={12}
                       alt="" 
@@ -131,7 +124,6 @@ const CustomersSay = () => {
                       <div className='flex gap-2 items-end'>
                         <Image 
                         src="https://cdn.prod.website-files.com/61702af2e3966e09c4101538/667b1c28e0f601dece9badaf_image%20(7).avif" 
-                        loading="lazy" 
                         width={76}
                         height={76}
                         className='rounded border-2 border-black'
@@ -144,7 +136,6 @@ const CustomersSay = () => {
                       </div>
                       <Image 
                       src="https://cdn.prod.website-files.com/61702af2e3966e09c4101538/667d272717789803344f6ada_verkada-logo-vector-2022.avif" 
-                      loading="lazy" 
                       width={86}
                       height={48}
                       alt="" 
