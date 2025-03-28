@@ -28,7 +28,7 @@ const Header = ({ setScrollBlock }) => {
         <div className='h-[76px] lg:h-[64px] bg-white border-b border-gray flex justify-between items-center px-2 lg:px-6 text-sm lg:fixed z-20 w-full relative'>
           <Link href='' className='flex items-center'>
             <Image
-            src="https://media.licdn.com/dms/image/v2/D4D0BAQFnMo8sYJdPJA/company-logo_200_200/company-logo_200_200/0/1702550996404?e=1738195200&v=beta&t=NoOq98gIWIhBFRdARnBDtMncY1xVGo5_zmRSCZsA_50"
+            src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/664ffc89ff539b531cc46813_Clay-logo-black-2024.webp"
             width={64}
             height={64}
             alt="Logo"
