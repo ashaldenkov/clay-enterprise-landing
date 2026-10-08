@@ -222,7 +222,7 @@ const BurgerMenu = () => {
             (hamburgerOptionActive === 'solutions') && (
                 <div className='w-full'>
                     <div>
-                      <div className='bg-socials px-4 md:px-6 py-3 font-bold text-textGray text-small cursor-default uppercase'>23bg for</div>
+                      <div className='bg-socials px-4 md:px-6 py-3 font-bold text-textGray text-small cursor-default uppercase'>clay for</div>
                       <ul className='bg-white md:flex md:flex-wrap'>
                         <li className='h-[50px] md:h-[95px] border-y border-borderClr md:w-1/2'>
                           <Link href='' className='flex h-full items-center h-[47px]'>
@@ -279,7 +279,7 @@ const BurgerMenu = () => {
                         <ul className='bg-white w-full flex'>
                                 <li className='border-r border-borderClr hover:bg-gray-100 group/item w-1/2'>
                                 <Link href='' className='block p-4 h-full'>
-                                <div className='w-full mb-2'>How Verkada’s growth team uses 23BG to launch targeted ABM campaigns across LinkedIn, email, and direct mail</div>
+                                <div className='w-full mb-2'>How Verkada’s growth team uses Clay to launch targeted ABM campaigns across LinkedIn, email, and direct mail</div>
                                     <div className='overflow-hidden rounded w-full h-[298px] relative'>
                                     <Image
                                         src='https://cdn.prod.website-files.com/61702af2e3966e09c4101538/670175f515ea5801d59eeb45_CSV.avif'
@@ -293,7 +293,7 @@ const BurgerMenu = () => {
                                 </li>
                                 <li className='border-borderClr hover:bg-gray-100 group/item w-1/2'>
                                 <Link href='' className='block p-4 h-full flex flex-col justify-between'>
-                                    <div className='w-full'>How Anthropic uses 23BG to 3x their enrichment coverage—with no manual work </div>
+                                    <div className='w-full'>How Anthropic uses Clay to 3x their enrichment coverage—with no manual work </div>
                                     <div className='overflow-hidden rounded w-full h-[298px] relative'>
                                     <Image
                                         src='https://cdn.prod.website-files.com/61702af2e3966e09c4101538/67017619c252f8cb382976c0_CS.avif'
@@ -340,7 +340,7 @@ const BurgerMenu = () => {
                                 </div>
                                 <div className='px-4 w-[246px] text-sm'>
                                 University
-                                <div className='text-dropdownSubhead hidden md:block text-xs'>Learn how to use 23BG with our best resources</div>
+                                <div className='text-dropdownSubhead hidden md:block text-xs'>Learn how to use Clay with our best resources</div>
                                 </div>
                             </Link>
                             </li>
@@ -372,7 +372,7 @@ const BurgerMenu = () => {
                                 </div>
                                 <div className='px-4 w-[246px] text-sm'>
                                 Experts
-                                <div className='text-dropdownSubhead hidden md:block text-xs'>Need help scaling your outbound? Hire a 23BG expert</div>
+                                <div className='text-dropdownSubhead hidden md:block text-xs'>Need help scaling your outbound? Hire a Clay expert</div>
                                 </div>
                             </Link>
                             </li>
@@ -403,8 +403,8 @@ const BurgerMenu = () => {
                                 alt=""/>
                                 </div>
                                 <div className='px-4 w-[246px] text-sm'>
-                                23BGbooks
-                                <div className='text-dropdownSubhead hidden md:block text-xs'>Build powerful workflows with 23BG and other tools</div>
+                                Claybooks
+                                <div className='text-dropdownSubhead hidden md:block text-xs'>Build powerful workflows with Clay and other tools</div>
                                 </div>
                             </Link>
                             </li>
@@ -594,7 +594,7 @@ const BurgerMenu = () => {
                             </div>
                             <div className='px-4 w-[246px] text-sm'>
                             Customer stories
-                            <div className='text-dropdownSubhead hidden md:block text-xs'>Read about how our biggest customers use (& love) 23BG</div>
+                            <div className='text-dropdownSubhead hidden md:block text-xs'>Read about how our biggest customers use (& love) Clay</div>
                             </div>
                           </Link>
                         </li>

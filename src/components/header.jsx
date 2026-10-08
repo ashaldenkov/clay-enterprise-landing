@@ -26,15 +26,15 @@ const Header = ({ setScrollBlock }) => {
   return (
     <div>
         <div className='h-[76px] lg:h-[64px] bg-white border-b border-gray flex justify-between items-center px-2 lg:px-6 text-sm lg:fixed z-20 w-full relative'>
-          <Link href='' className='flex items-center'>
+          <Link href='' className='flex items-center px-2'>
             <Image
             src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/664ffc89ff539b531cc46813_Clay-logo-black-2024.webp"
-            width={64}
-            height={64}
-            alt="Logo"
-            className='h-[50px] w-[50px]'
+            width={694}
+            height={219}
+            alt="Clay"
+            priority
+            className='h-7 w-auto'
             />
-            <h1 className='text-xl'>23BG</h1>
           </Link>
 
           <div className='flex items-center max-lg:hidden h-full'>
@@ -249,7 +249,7 @@ const Header = ({ setScrollBlock }) => {
                   <div className='border border-borderDrop bg-white w-full h-full flex'>
 
                     <div className='w-[320px]'>
-                      <div className='bg-socials px-4 py-3 font-bold text-textGray text-small cursor-default'>23BG FOR</div>
+                      <div className='bg-socials px-4 py-3 font-bold text-textGray text-small cursor-default'>CLAY FOR</div>
                       <ul className='bg-white'>
                         <li className='w-[320px] hover:bg-gray-100 group/item h-[96px] border-y border-borderClr'>
                           <Link href='' className='flex h-full items-center h-[47px]'>
@@ -307,7 +307,7 @@ const Header = ({ setScrollBlock }) => {
                       <ul className='bg-white w-full h-[288px] flex'>
                         <li className='border-t border-r border-borderClr hover:bg-gray-100 group/item w-1/2'>
                         <Link href='' className='block p-4 h-full flex flex-col justify-between'>
-                          <div className='w-full'>How Verkada’s growth team uses 23BG to launch targeted ABM campaigns across LinkedIn, email, and direct mail</div>
+                          <div className='w-full'>How Verkada’s growth team uses Clay to launch targeted ABM campaigns across LinkedIn, email, and direct mail</div>
                             <div className='overflow-hidden rounded w-full h-[180px] relative'>
                               <Image
                                 src='https://cdn.prod.website-files.com/61702af2e3966e09c4101538/670175f515ea5801d59eeb45_CSV.avif'
@@ -321,7 +321,7 @@ const Header = ({ setScrollBlock }) => {
                         </li>
                         <li className='border-t border-borderClr hover:bg-gray-100 group/item w-1/2'>
                           <Link href='' className='block p-4 h-full flex flex-col justify-between'>
-                            <div className='w-full'>How Anthropic uses 23BG to 3x their enrichment coverage—with no manual work </div>
+                            <div className='w-full'>How Anthropic uses Clay to 3x their enrichment coverage—with no manual work </div>
                             <div className='overflow-hidden rounded w-full h-[180px] relative'>
                               <Image
                                 src='https://cdn.prod.website-files.com/61702af2e3966e09c4101538/67017619c252f8cb382976c0_CS.avif'
@@ -366,7 +366,7 @@ const Header = ({ setScrollBlock }) => {
                             </div>
                             <div className='px-4 w-[246px]'>
                               <div className='text-sm'>University</div>
-                              <div className='text-dropdownSubhead text-xs'>Learn how to use 23BG with our best resources</div>
+                              <div className='text-dropdownSubhead text-xs'>Learn how to use Clay with our best resources</div>
                             </div>
                           </Link>
                         </li>
@@ -398,7 +398,7 @@ const Header = ({ setScrollBlock }) => {
                             </div>
                             <div className='px-4 w-[246px]'>
                               <div className='text-sm'>Experts</div>
-                              <div className='text-dropdownSubhead text-xs'>Need help scaling your outbound? Hire a 23BG expert</div>
+                              <div className='text-dropdownSubhead text-xs'>Need help scaling your outbound? Hire a Clay expert</div>
                             </div>
                           </Link>
                         </li>
@@ -429,8 +429,8 @@ const Header = ({ setScrollBlock }) => {
                               alt=""/>
                             </div>
                             <div className='px-4 w-[246px]'>
-                              <div className='text-sm'>23BGBooks</div>
-                              <div className='text-dropdownSubhead text-xs'>Build powerful workflows with 23BG and other tools</div>
+                              <div className='text-sm'>Claybooks</div>
+                              <div className='text-dropdownSubhead text-xs'>Build powerful workflows with Clay and other tools</div>
                             </div>
                           </Link>
                         </li>
@@ -610,7 +610,7 @@ const Header = ({ setScrollBlock }) => {
                             </div>
                             <div className='px-4 w-[246px]'>
                               <div className='text-sm'>Customer stories</div>
-                              <div className='text-dropdownSubhead'>Read about how our biggest customers use (& love) 23BG</div>
+                              <div className='text-dropdownSubhead'>Read about how our biggest customers use (& love) Clay</div>
                             </div>
                           </Link>
                         </li>

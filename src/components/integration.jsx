@@ -8,8 +8,8 @@ const Integration = () => {
     <div className='max-w-[1240px] mx-auto px-5 md:px-9 lg:px-6'>
       <div className='py-[16px] md:py-[32px] lg:py-[64px]'>
         <div className='lg:flex'>
-            <div className='text-3xl md:text-4xl lg:text-5xl mb-8 lg:basis-1/2'>23BG in your tech stack</div>
-            <div className='md:text-lg lg:text-xl mb-8 lg:basis-1/2'>With a CRM, Clay, and an email sending tool, you&aposre ready to send any outreach campaign.</div>
+            <div className='text-3xl md:text-4xl lg:text-5xl mb-8 lg:basis-1/2'>Clay in your tech stack</div>
+            <div className='md:text-lg lg:text-xl mb-8 lg:basis-1/2'>With a CRM, Clay, and an email sending tool, you’re ready to send any outreach campaign.</div>
         </div>
         <div className='w-full h-fit bg-socials mt-[48px] flex justify-center items-center'>
         <Image 
@@ -25,7 +25,7 @@ const Integration = () => {
 
       <div className='pt-[48px] md:pt-[64px] lg:pt-[96px]'>
         <div>
-          <div className='text-3xl md:text-4xl lg:text-5xl mb-3'>23BG in your team</div>
+          <div className='text-3xl md:text-4xl lg:text-5xl mb-3'>Clay in your team</div>
           <div className='md:flex md:justify-between md:items-end mt-6 mb-8'>
             <div className='basis-1/2 md:text-lg lg:text-xl max-md:mb-8'>We are the backend data enrichment and orchestration layer that sets up your sales team for success.</div>
             <ContactBtn/>

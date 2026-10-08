@@ -49,7 +49,7 @@ const CustomersSay = () => {
                       height={12}
                       alt="" 
                     />
-                    <div>23BG&aposs innate multi-source data enrichment paired with customized GPT prompts offers powerful combination of AI and data orchestration for GTM teams.</div>
+                    <div>Clay’s innate multi-source data enrichment paired with customized GPT prompts offers powerful combination of AI and data orchestration for GTM teams.</div>
                     <div className='mt-auto border-t border-black pt-8 flex justify-between items-start'>
                       <div className='flex gap-2 items-end'>
                         <Image 
@@ -84,7 +84,7 @@ const CustomersSay = () => {
                       height={12}
                       alt="" 
                     />
-                    <div>23BG should be an essential pillar of every company&aposs GTM stack, enabling outbound built on the highest quality data foundation possible. Now you can automate hours of manual research so sales teams can focus on selling.</div>
+                    <div>Clay should be an essential pillar of every company’s GTM stack, enabling outbound built on the highest quality data foundation possible. Now you can automate hours of manual research so sales teams can focus on selling.</div>
                     <div className='mt-auto border-t border-black pt-8 flex justify-between items-start'>
                       <div className='flex gap-2 items-end'>
                         <Image 
@@ -119,7 +119,7 @@ const CustomersSay = () => {
                       height={12}
                       alt="" 
                     />
-                    <div>23BG is a game changer for marketing, data, and operations. We have tripled our enrichment rate with 23BG&aposs combination of data providers vs. our previous solution. We&aposre using the best aggregate results across a waterfall of data sources, and implementing complex workflow logic even beyond enrichment—of course powered by AI. 23BG makes it easy to use AI for GTM initiatives, unlocking new workflows that were infeasible before.</div>
+                    <div>Clay is a game changer for marketing, data, and operations. We have tripled our enrichment rate with Clay’s combination of data providers vs. our previous solution. We’re using the best aggregate results across a waterfall of data sources, and implementing complex workflow logic even beyond enrichment—of course powered by AI. Clay makes it easy to use AI for GTM initiatives, unlocking new workflows that were infeasible before.</div>
                     <div className='mt-auto border-t border-black pt-8 flex justify-between items-start'>
                       <div className='flex gap-2 items-end'>
                         <Image 
@@ -155,7 +155,7 @@ const CustomersSay = () => {
                       height={12}
                       alt="" 
                     />
-                    <div>23BG saves us hours a week that we previously spent researching and vetting companies that applied to our startup program. Our auto-approval rate has jumped to ~40%—with no manual work needed.</div>
+                    <div>Clay saves us hours a week that we previously spent researching and vetting companies that applied to our startup program. Our auto-approval rate has jumped to ~40%—with no manual work needed.</div>
                     <div className='mt-auto border-t border-black pt-8 flex justify-between items-start'>
                       <div className='flex gap-2 items-end'>
                         <Image 
@@ -193,7 +193,7 @@ const CustomersSay = () => {
                       height={12}
                       alt="" 
                     />
-                    <div>I love using and working with 23BG because its extensive customization options allow it to seamlessly integrate into various systems, making it an essential part of our tech stack. Their hands-on customer support ensures we build out flows in the most efficient way possible, enhancing our overall productivity and effectiveness.</div>
+                    <div>I love using and working with Clay because its extensive customization options allow it to seamlessly integrate into various systems, making it an essential part of our tech stack. Their hands-on customer support ensures we build out flows in the most efficient way possible, enhancing our overall productivity and effectiveness.</div>
                     <div className='mt-auto border-t border-black pt-8 flex justify-between items-start'>
                       <div className='flex gap-2 items-end'>
                         <Image 
@@ -231,7 +231,7 @@ const CustomersSay = () => {
                       height={12}
                       alt="" 
                     />
-                    <div>Demand generation at scale needs to be programmatic, automated and high quality. 23BG helps us make that happen by cutting down manual work and maximizing human touches for millions of leads each month. 23BG helps us create accurate outreach that protects our brand as we outbound intelligently.</div>
+                    <div>Demand generation at scale needs to be programmatic, automated and high quality. Clay helps us make that happen by cutting down manual work and maximizing human touches for millions of leads each month. Clay helps us create accurate outreach that protects our brand as we outbound intelligently.</div>
                     <div className='mt-auto border-t border-black pt-8 flex justify-between items-start'>
                       <div className='flex gap-2 items-end'>
                         <Image 
@@ -269,7 +269,7 @@ const CustomersSay = () => {
                       height={12}
                       alt="" 
                     />
-                    <div>Not having 23BG would hugely reduce our ability to run good outbound campaigns. We wouldn’t be calling people as much, because it’s hard to get good phone numbers. We wouldn’t be emailing as much, because we’d be likely to bounce or go to spam. With 23BG, we have a reliable source of data enrichment and can run dynamic, multi-touch outreach sequences.</div>
+                    <div>Not having Clay would hugely reduce our ability to run good outbound campaigns. We wouldn’t be calling people as much, because it’s hard to get good phone numbers. We wouldn’t be emailing as much, because we’d be likely to bounce or go to spam. With Clay, we have a reliable source of data enrichment and can run dynamic, multi-touch outreach sequences.</div>
                     <div className='mt-auto border-t border-black pt-8 flex justify-between items-start'>
                       <div className='flex gap-2 items-end'>
                         <Image 
@@ -307,7 +307,7 @@ const CustomersSay = () => {
                       height={12}
                       alt="" 
                     />
-                    <div>Scaling inefficient SDR work isn’t possible without an infinite flow of capital. 23BG helps automate mundane tasks like contact data enrichment, including pulling signals and triggers, so SDRs can focus their time on prioritized selling and spend their days more effectively. It evolves the SDR role and aligns it with better with marketing paths for more upward career momentum.</div>
+                    <div>Scaling inefficient SDR work isn’t possible without an infinite flow of capital. Clay helps automate mundane tasks like contact data enrichment, including pulling signals and triggers, so SDRs can focus their time on prioritized selling and spend their days more effectively. It evolves the SDR role and aligns it with better with marketing paths for more upward career momentum.</div>
                     <div className='mt-auto border-t border-black pt-8 flex justify-between items-start'>
                       <div className='flex gap-2 items-end'>
                         <Image 
