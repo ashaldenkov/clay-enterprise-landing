@@ -1,22 +1,17 @@
-import { useEffect, useState } from 'react';
-import { useSwiper } from 'swiper/react';
+import { useEffect, useState } from 'react'
+import { useSwiper } from 'swiper/react'
 
-/**
- * Hook to get the swiper instance in a reactive way.
- * This is useful when you need to get the active index of the swiper on every slide change.
- * @returns {Swiper} swiper
- */
+// re-renders on every slide change so isBeginning / isEnd stay current
 export const useSwiperReactive = () => {
-  const swiper = useSwiper();
-
-  // State to force a rerender.
-  const [, setSignal] = useState({});
-  const forceRerender = () => setSignal({});
+  const swiper = useSwiper()
+  const [, setSignal] = useState({})
 
   useEffect(() => {
-    if (swiper)
-      swiper.on('slideChange', forceRerender);
-  }, []);
+    if (!swiper) return
+    const forceRerender = () => setSignal({})
+    swiper.on('slideChange', forceRerender)
+    return () => swiper.off('slideChange', forceRerender)
+  }, [swiper])
 
-  return swiper;
-};
+  return swiper
+}

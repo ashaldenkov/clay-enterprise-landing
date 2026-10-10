@@ -1,27 +1,15 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react'
 
 export default function useDelayUnmount(isMounted, delayTime) {
+  const [isRendered, setIsRendered] = useState(isMounted)
 
-    const [showDiv, setShowDiv] = useState(false);
-  
-    useEffect(() => {
-  
-      let timeoutId;
-  
-      if (isMounted && !showDiv) {
-  
-        setShowDiv(true);
-  
-      } else if (!isMounted && showDiv) {
-  
-        timeoutId = setTimeout(() => setShowDiv(false), delayTime); //delay our unmount
-  
-      }
-  
-      return () => clearTimeout(timeoutId); // cleanup mechanism for effects , the use of setTimeout generate a sideEffect
-  
-    }, [isMounted, delayTime, showDiv]);
-  
-    return showDiv;
-  
-  }
+  useEffect(() => {
+    const timeoutId = setTimeout(
+      () => setIsRendered(isMounted),
+      isMounted ? 0 : delayTime,
+    )
+    return () => clearTimeout(timeoutId)
+  }, [isMounted, delayTime])
+
+  return isMounted || isRendered
+}
