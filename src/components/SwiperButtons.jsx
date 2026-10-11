@@ -6,7 +6,7 @@ export function SlideNextButton() {
   return (
     <button
       onClick={() => swiper.slideNext()}
-      className={`rounded border border-featureGrey px-1 py-2 transition-all duration-200 ${swiper.isEnd && 'opacity-50'}`}
+      className={`rounded-sm border border-featureGrey px-1 py-2 transition-all duration-200 ${swiper.isEnd && 'opacity-50'}`}
       disabled={swiper.isEnd}
     >
       <svg
@@ -30,7 +30,7 @@ export function SlidePrevButton() {
   return (
     <button
       onClick={() => swiper.slidePrev()}
-      className={`rounded border border-featureGrey px-1 py-2 transition-all duration-200 ${swiper.isBeginning && 'opacity-50'}`}
+      className={`rounded-sm border border-featureGrey px-1 py-2 transition-all duration-200 ${swiper.isBeginning && 'opacity-50'}`}
       disabled={swiper.isBeginning}
     >
       <svg xmlns="http://www.w3.org/2000/svg" width="25px" viewBox="0 0 20 20">

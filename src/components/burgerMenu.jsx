@@ -14,7 +14,7 @@ const BurgerMenu = () => {
       {/* product */}
       <Link
         href=""
-        className="border-gray flex h-[56px] items-center border-b p-4 md:h-[72px] md:p-6"
+        className="flex h-[56px] items-center border-b p-4 md:h-[72px] md:p-6"
         onClick={() => {
           if (hamburgerOptionActive === 'product')
             setHamburgerOptionActive(null)
@@ -24,14 +24,14 @@ const BurgerMenu = () => {
         <div>Product</div>
         <Image
           src={DropdownArrow}
-          className={`ml-1 h-5 w-5 w-6 transition-all duration-200 ${hamburgerOptionActive === 'product' ? 'rotate-180' : ''}`}
+          className={`ml-1 size-5 transition-all duration-200 ${hamburgerOptionActive === 'product' ? 'rotate-180' : ''}`}
           alt=""
         />
       </Link>
       {hamburgerOptionActive === 'product' && (
         <div className="w-full">
           <div>
-            <div className="cursor-default bg-socials px-4 py-3 text-small font-bold uppercase text-textGray md:px-6">
+            <div className="cursor-default bg-socials px-4 py-3 text-small font-bold text-textGray uppercase md:px-6">
               recurring workflows
             </div>
             <ul className="bg-white md:flex md:flex-wrap">
@@ -133,7 +133,7 @@ const BurgerMenu = () => {
             </ul>
           </div>
           <div>
-            <div className="cursor-default bg-socials px-4 py-3 text-small font-bold uppercase text-textGray md:border-y md:border-borderClr md:px-6">
+            <div className="cursor-default bg-socials px-4 py-3 text-small font-bold text-textGray uppercase md:border-y md:border-borderClr md:px-6">
               Features
             </div>
             <ul className="bg-white md:flex md:flex-wrap">
@@ -264,7 +264,7 @@ const BurgerMenu = () => {
       {/* solutions */}
       <Link
         href=""
-        className="border-gray flex h-[56px] items-center border-b p-4 md:h-[72px] md:p-6"
+        className="flex h-[56px] items-center border-b p-4 md:h-[72px] md:p-6"
         onClick={() => {
           if (hamburgerOptionActive === 'solutions')
             setHamburgerOptionActive(null)
@@ -274,14 +274,14 @@ const BurgerMenu = () => {
         <div>Solutions</div>
         <Image
           src={DropdownArrow}
-          className={`ml-1 h-5 w-5 w-6 transition-all duration-200 ${hamburgerOptionActive === 'solutions' ? 'rotate-180' : ''}`}
+          className={`ml-1 size-5 transition-all duration-200 ${hamburgerOptionActive === 'solutions' ? 'rotate-180' : ''}`}
           alt=""
         />
       </Link>
       {hamburgerOptionActive === 'solutions' && (
         <div className="w-full">
           <div>
-            <div className="cursor-default bg-socials px-4 py-3 text-small font-bold uppercase text-textGray md:px-6">
+            <div className="cursor-default bg-socials px-4 py-3 text-small font-bold text-textGray uppercase md:px-6">
               clay for
             </div>
             <ul className="bg-white md:flex md:flex-wrap">
@@ -356,7 +356,7 @@ const BurgerMenu = () => {
                     How Verkada’s growth team uses Clay to launch targeted ABM
                     campaigns across LinkedIn, email, and direct mail
                   </div>
-                  <div className="relative h-[298px] w-full overflow-hidden rounded">
+                  <div className="relative h-[298px] w-full overflow-hidden rounded-sm">
                     <Image
                       src="https://cdn.prod.website-files.com/61702af2e3966e09c4101538/670175f515ea5801d59eeb45_CSV.avif"
                       width={744}
@@ -376,7 +376,7 @@ const BurgerMenu = () => {
                     How Anthropic uses Clay to 3x their enrichment coverage—with
                     no manual work{' '}
                   </div>
-                  <div className="relative h-[298px] w-full overflow-hidden rounded">
+                  <div className="relative h-[298px] w-full overflow-hidden rounded-sm">
                     <Image
                       src="https://cdn.prod.website-files.com/61702af2e3966e09c4101538/67017619c252f8cb382976c0_CS.avif"
                       width={744}
@@ -395,7 +395,7 @@ const BurgerMenu = () => {
       {/* Resources */}
       <Link
         href=""
-        className="border-gray flex h-[56px] items-center border-b p-4 md:h-[72px] md:p-6"
+        className="flex h-[56px] items-center border-b p-4 md:h-[72px] md:p-6"
         onClick={() => {
           if (hamburgerOptionActive === 'resources')
             setHamburgerOptionActive(null)
@@ -405,14 +405,14 @@ const BurgerMenu = () => {
         <div>Resources</div>
         <Image
           src={DropdownArrow}
-          className={`ml-1 h-5 w-5 w-6 transition-all duration-200 ${hamburgerOptionActive === 'resources' ? 'rotate-180' : ''}`}
+          className={`ml-1 size-5 transition-all duration-200 ${hamburgerOptionActive === 'resources' ? 'rotate-180' : ''}`}
           alt=""
         />
       </Link>
       {hamburgerOptionActive === 'resources' && (
         <div className="w-full">
           <div>
-            <div className="cursor-default bg-socials px-4 py-3 text-small font-bold uppercase text-textGray md:px-6">
+            <div className="cursor-default bg-socials px-4 py-3 text-small font-bold text-textGray uppercase md:px-6">
               recurring workflows
             </div>
             <ul className="bg-white md:flex md:flex-wrap">
@@ -535,7 +535,7 @@ const BurgerMenu = () => {
             </ul>
           </div>
           <div>
-            <div className="cursor-default bg-socials px-4 py-3 text-small font-bold uppercase text-textGray md:px-6">
+            <div className="cursor-default bg-socials px-4 py-3 text-small font-bold text-textGray uppercase md:px-6">
               Additional help
             </div>
             <ul className="bg-white">
@@ -628,7 +628,7 @@ const BurgerMenu = () => {
             </ul>
           </div>
           <div>
-            <div className="cursor-default bg-socials px-4 py-3 text-small font-bold uppercase text-textGray md:px-6">
+            <div className="cursor-default bg-socials px-4 py-3 text-small font-bold text-textGray uppercase md:px-6">
               tools
             </div>
             <ul className="bg-socials">
@@ -672,7 +672,7 @@ const BurgerMenu = () => {
       {/* Company */}
       <Link
         href=""
-        className="border-gray flex h-[56px] items-center border-b p-4 md:h-[72px] md:p-6"
+        className="flex h-[56px] items-center border-b p-4 md:h-[72px] md:p-6"
         onClick={() => {
           if (hamburgerOptionActive === 'company')
             setHamburgerOptionActive(null)
@@ -682,13 +682,13 @@ const BurgerMenu = () => {
         <div>Company</div>
         <Image
           src={DropdownArrow}
-          className={`ml-1 h-5 w-5 w-6 transition-all duration-200 ${hamburgerOptionActive === 'company' ? 'rotate-180' : ''}`}
+          className={`ml-1 size-5 transition-all duration-200 ${hamburgerOptionActive === 'company' ? 'rotate-180' : ''}`}
           alt=""
         />
       </Link>
       {hamburgerOptionActive === 'company' && (
         <div className="w-full">
-          <div className="cursor-default bg-socials px-4 py-3 text-small font-bold uppercase text-textGray md:px-6">
+          <div className="cursor-default bg-socials px-4 py-3 text-small font-bold text-textGray uppercase md:px-6">
             our company
           </div>
           <ul className="bg-white md:flex md:flex-wrap">
@@ -731,7 +731,7 @@ const BurgerMenu = () => {
               </Link>
             </li>
           </ul>
-          <div className="cursor-default bg-socials px-4 py-3 text-small font-bold uppercase text-textGray md:px-6">
+          <div className="cursor-default bg-socials px-4 py-3 text-small font-bold text-textGray uppercase md:px-6">
             Social media
           </div>
           <ul className="bg-white">
@@ -768,21 +768,15 @@ const BurgerMenu = () => {
       )}
 
       {/* Links */}
-      <Link
-        href=""
-        className="border-gray block h-[56px] border-b p-4 md:h-[72px] md:p-6"
-      >
+      <Link href="" className="block h-[56px] border-b p-4 md:h-[72px] md:p-6">
         Enterprise
       </Link>
-      <Link
-        href=""
-        className="border-gray block h-[56px] border-b p-4 md:h-[72px] md:p-6"
-      >
+      <Link href="" className="block h-[56px] border-b p-4 md:h-[72px] md:p-6">
         Pricing
       </Link>
       <Link
         href=""
-        className="m-4 inline-block h-10 rounded bg-black px-4 py-2 text-white md:m-6"
+        className="m-4 inline-block h-10 rounded-sm bg-black px-4 py-2 text-white md:m-6"
       >
         Start building — for free
       </Link>

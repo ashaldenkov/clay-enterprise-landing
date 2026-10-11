@@ -17,7 +17,7 @@ const Options = () => {
             on manual work.
           </div>
         </div>
-        <div className="border-gray h-fit rounded-[13px] border p-[7px]">
+        <div className="h-fit rounded-[13px] border p-[7px]">
           <video
             autoPlay
             playsInline
@@ -47,7 +47,7 @@ const Options = () => {
           <div className="text-3xl md:text-4xl lg:text-5xl">
             Fill your CRM with deep, clean customer research
           </div>
-          <div className="mt-4 leading-8 md:text-lg lg:text-xl">
+          <div className="mt-4 leading-8 md:text-lg md:leading-7 lg:text-xl">
             Get deep research on any customer, from contact information,
             firmographics, or any custom research query. Then, use it to craft
             the perfect outreach.

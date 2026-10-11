@@ -6,8 +6,8 @@ const Footer = () => {
   return (
     <div className="bg-black pb-[80px] text-white">
       {/* prefooter */}
-      <div className='flex flex-col items-center justify-center bg-[linear-gradient(to_bottom,rgba(0,0,0,0),black),url("https://cdn.prod.website-files.com/61477f2c24a826836f969afe/669941ab317c22673db64543_SHAPES-(1).webp")] bg-cover bg-left-top bg-no-repeat px-4 py-[96px] md:py-[128px] lg:bg-top'>
-        <div className="mb-8 text-center text-[41px] font-bold leading-tight md:text-6xl lg:text-7xl">
+      <div className='flex flex-col items-center justify-center bg-[linear-gradient(to_bottom,rgba(0,0,0,0),black),url("https://cdn.prod.website-files.com/61477f2c24a826836f969afe/669941ab317c22673db64543_SHAPES-(1).webp")] bg-cover bg-top-left bg-no-repeat px-4 py-[96px] md:py-[128px] lg:bg-top'>
+        <div className="mb-8 text-center text-[41px] leading-tight font-bold md:text-6xl md:leading-none lg:text-7xl">
           Start molding your dream campaigns today
         </div>
         <div className="mb-4 text-center">
@@ -15,9 +15,9 @@ const Footer = () => {
         </div>
         <Link
           href=""
-          className="group mb-8 flex w-fit items-center rounded bg-white px-4 py-2 text-black transition duration-300"
+          className="group mb-8 flex w-fit items-center rounded-sm bg-white px-4 py-2 text-black transition duration-300"
         >
-          <div className="text-nowrap text-base font-bold">
+          <div className="text-base font-bold text-nowrap">
             Try it – it’s free
           </div>
           <div className="ml-2 h-5 w-5 overflow-hidden">
@@ -51,7 +51,7 @@ const Footer = () => {
         <div className="mb-8 flex flex-1 flex-col items-center justify-center px-4 min-[500px]:items-start">
           <div className="mb-4 md:w-full">Product</div>
           <ul>
-            <li className="pb-3 pt-1">
+            <li className="pt-1 pb-3">
               <Link
                 href=""
                 className="block w-full text-center text-link hover:text-white hover:underline min-[500px]:text-start"
@@ -59,7 +59,7 @@ const Footer = () => {
                 Login
               </Link>
             </li>
-            <li className="pb-3 pt-1">
+            <li className="pt-1 pb-3">
               <Link
                 href=""
                 className="block w-full text-center text-link hover:text-white hover:underline min-[500px]:text-start"
@@ -67,7 +67,7 @@ const Footer = () => {
                 University
               </Link>
             </li>
-            <li className="pb-3 pt-1">
+            <li className="pt-1 pb-3">
               <Link
                 href=""
                 className="block w-full text-center text-link hover:text-white hover:underline min-[500px]:text-start"
@@ -75,7 +75,7 @@ const Footer = () => {
                 Integrations
               </Link>
             </li>
-            <li className="pb-3 pt-1">
+            <li className="pt-1 pb-3">
               <Link
                 href=""
                 className="block w-full text-center text-link hover:text-white hover:underline min-[500px]:text-start"
@@ -83,7 +83,7 @@ const Footer = () => {
                 Pricing
               </Link>
             </li>
-            <li className="pb-3 pt-1">
+            <li className="pt-1 pb-3">
               <Link
                 href=""
                 className="block w-full text-center text-link hover:text-white hover:underline min-[500px]:text-start"
@@ -96,7 +96,7 @@ const Footer = () => {
         <div className="mb-8 flex flex-1 flex-col items-center justify-center px-4 min-[500px]:items-start">
           <div className="mb-4 md:w-full">Blog</div>
           <ul>
-            <li className="pb-3 pt-1">
+            <li className="pt-1 pb-3">
               <Link
                 href=""
                 className="block w-full text-center text-link hover:text-white hover:underline min-[500px]:text-start"
@@ -104,7 +104,7 @@ const Footer = () => {
                 AI for Sales Prospecting
               </Link>
             </li>
-            <li className="pb-3 pt-1">
+            <li className="pt-1 pb-3">
               <Link
                 href=""
                 className="block w-full text-center text-link hover:text-white hover:underline min-[500px]:text-start"
@@ -112,7 +112,7 @@ const Footer = () => {
                 Why good CRM data matters
               </Link>
             </li>
-            <li className="pb-3 pt-1">
+            <li className="pt-1 pb-3">
               <Link
                 href=""
                 className="block w-full text-center text-link hover:text-white hover:underline min-[500px]:text-start"
@@ -120,7 +120,7 @@ const Footer = () => {
                 Google Maps lead generation in 5 easy steps
               </Link>
             </li>
-            <li className="pb-3 pt-1">
+            <li className="pt-1 pb-3">
               <Link
                 href=""
                 className="block w-full text-center text-link hover:text-white hover:underline min-[500px]:text-start"
@@ -128,7 +128,7 @@ const Footer = () => {
                 Outbound Sales Automation
               </Link>
             </li>
-            <li className="pb-3 pt-1">
+            <li className="pt-1 pb-3">
               <Link
                 href=""
                 className="block w-full text-center text-link hover:text-white hover:underline min-[500px]:text-start"
@@ -141,7 +141,7 @@ const Footer = () => {
         <div className="mb-8 flex flex-1 flex-col items-center justify-center px-4 min-[500px]:items-start">
           <div className="mb-4 md:w-full">Tools</div>
           <ul>
-            <li className="pb-3 pt-1">
+            <li className="pt-1 pb-3">
               <Link
                 href=""
                 className="block w-full text-center text-link hover:text-white hover:underline min-[500px]:text-start"
@@ -149,7 +149,7 @@ const Footer = () => {
                 Email Finder
               </Link>
             </li>
-            <li className="pb-3 pt-1">
+            <li className="pt-1 pb-3">
               <Link
                 href=""
                 className="block w-full text-center text-link hover:text-white hover:underline min-[500px]:text-start"
@@ -157,7 +157,7 @@ const Footer = () => {
                 Headcount Finder
               </Link>
             </li>
-            <li className="pb-3 pt-1">
+            <li className="pt-1 pb-3">
               <Link
                 href=""
                 className="block w-full text-center text-link hover:text-white hover:underline min-[500px]:text-start"
@@ -165,7 +165,7 @@ const Footer = () => {
                 Credits Calculator
               </Link>
             </li>
-            <li className="pb-3 pt-1">
+            <li className="pt-1 pb-3">
               <Link
                 href=""
                 className="block w-full text-center text-link hover:text-white hover:underline min-[500px]:text-start"
@@ -173,7 +173,7 @@ const Footer = () => {
                 Chrome extension
               </Link>
             </li>
-            <li className="pb-3 pt-1">
+            <li className="pt-1 pb-3">
               <Link
                 href=""
                 className="block w-full text-center text-link hover:text-white hover:underline min-[500px]:text-start"
@@ -181,7 +181,7 @@ const Footer = () => {
                 Lookup WHOIS Info
               </Link>
             </li>
-            <li className="pb-3 pt-1">
+            <li className="pt-1 pb-3">
               <Link
                 href=""
                 className="block w-full text-center text-link hover:text-white hover:underline min-[500px]:text-start"
@@ -189,7 +189,7 @@ const Footer = () => {
                 CPM Calculator
               </Link>
             </li>
-            <li className="pb-3 pt-1">
+            <li className="pt-1 pb-3">
               <Link
                 href=""
                 className="block w-full text-center text-link hover:text-white hover:underline min-[500px]:text-start"
@@ -197,7 +197,7 @@ const Footer = () => {
                 Margin Calculator
               </Link>
             </li>
-            <li className="pb-3 pt-1">
+            <li className="pt-1 pb-3">
               <Link
                 href=""
                 className="block w-full text-center text-link hover:text-white hover:underline min-[500px]:text-start"
@@ -205,7 +205,7 @@ const Footer = () => {
                 Headcount Directory
               </Link>
             </li>
-            <li className="pb-3 pt-1">
+            <li className="pt-1 pb-3">
               <Link
                 href=""
                 className="block w-full text-center text-link hover:text-white hover:underline min-[500px]:text-start"
@@ -213,7 +213,7 @@ const Footer = () => {
                 Glossary
               </Link>
             </li>
-            <li className="pb-3 pt-1">
+            <li className="pt-1 pb-3">
               <Link
                 href=""
                 className="block w-full text-center text-link hover:text-white hover:underline min-[500px]:text-start"
@@ -221,7 +221,7 @@ const Footer = () => {
                 Dossier
               </Link>
             </li>
-            <li className="pb-3 pt-1">
+            <li className="pt-1 pb-3">
               <Link
                 href=""
                 className="block w-full text-center text-link hover:text-white hover:underline min-[500px]:text-start"
@@ -234,7 +234,7 @@ const Footer = () => {
         <div className="mb-8 flex flex-1 flex-col items-center justify-center px-4 min-[500px]:items-start">
           <div className="mb-4 md:w-full">Support</div>
           <ul>
-            <li className="pb-3 pt-1">
+            <li className="pt-1 pb-3">
               <Link
                 href=""
                 className="block w-full text-center text-link hover:text-white hover:underline min-[500px]:text-start"
@@ -242,7 +242,7 @@ const Footer = () => {
                 Send us an email
               </Link>
             </li>
-            <li className="pb-3 pt-1">
+            <li className="pt-1 pb-3">
               <Link
                 href=""
                 className="block w-full text-center text-link hover:text-white hover:underline min-[500px]:text-start"
@@ -250,7 +250,7 @@ const Footer = () => {
                 Join Slack
               </Link>
             </li>
-            <li className="pb-3 pt-1">
+            <li className="pt-1 pb-3">
               <Link
                 href=""
                 className="block w-full text-center text-link hover:text-white hover:underline min-[500px]:text-start"
@@ -258,7 +258,7 @@ const Footer = () => {
                 FAQ
               </Link>
             </li>
-            <li className="pb-3 pt-1">
+            <li className="pt-1 pb-3">
               <Link
                 href=""
                 className="block w-full text-center text-link hover:text-white hover:underline min-[500px]:text-start"
@@ -271,7 +271,7 @@ const Footer = () => {
         <div className="mb-8 flex flex-1 flex-col items-center justify-center px-4 min-[500px]:items-start">
           <div className="mb-4 md:w-full">Company</div>
           <ul>
-            <li className="pb-3 pt-1">
+            <li className="pt-1 pb-3">
               <Link
                 href=""
                 className="block w-full text-center text-link hover:text-white hover:underline min-[500px]:text-start"
@@ -279,7 +279,7 @@ const Footer = () => {
                 Customer Stories
               </Link>
             </li>
-            <li className="pb-3 pt-1">
+            <li className="pt-1 pb-3">
               <Link
                 href=""
                 className="block w-full text-center text-link hover:text-white hover:underline min-[500px]:text-start"
@@ -287,7 +287,7 @@ const Footer = () => {
                 Wall of Love
               </Link>
             </li>
-            <li className="pb-3 pt-1">
+            <li className="pt-1 pb-3">
               <Link
                 href=""
                 className="block w-full text-center text-link hover:text-white hover:underline min-[500px]:text-start"
@@ -295,7 +295,7 @@ const Footer = () => {
                 Careers
               </Link>
             </li>
-            <li className="pb-3 pt-1">
+            <li className="pt-1 pb-3">
               <Link
                 href=""
                 className="block w-full text-center text-link hover:text-white hover:underline min-[500px]:text-start"
@@ -303,7 +303,7 @@ const Footer = () => {
                 Creators Program
               </Link>
             </li>
-            <li className="pb-3 pt-1">
+            <li className="pt-1 pb-3">
               <Link
                 href=""
                 className="block w-full text-center text-link hover:text-white hover:underline min-[500px]:text-start"
@@ -316,7 +316,7 @@ const Footer = () => {
         <div className="mb-8 flex flex-1 flex-col items-center justify-center px-4 min-[500px]:items-start">
           <div className="mb-4 md:w-full">Legal</div>
           <ul>
-            <li className="pb-3 pt-1">
+            <li className="pt-1 pb-3">
               <Link
                 href=""
                 className="block w-full text-center text-link hover:text-white hover:underline min-[500px]:text-start"
@@ -324,7 +324,7 @@ const Footer = () => {
                 Privacy Policy
               </Link>
             </li>
-            <li className="pb-3 pt-1">
+            <li className="pt-1 pb-3">
               <Link
                 href=""
                 className="block w-full text-center text-link hover:text-white hover:underline min-[500px]:text-start"
@@ -332,7 +332,7 @@ const Footer = () => {
                 Terms of Service
               </Link>
             </li>
-            <li className="pb-3 pt-1">
+            <li className="pt-1 pb-3">
               <Link
                 href=""
                 className="block w-full text-center text-link hover:text-white hover:underline min-[500px]:text-start"
@@ -340,7 +340,7 @@ const Footer = () => {
                 Do not sell my data
               </Link>
             </li>
-            <li className="pb-3 pt-1">
+            <li className="pt-1 pb-3">
               <Link
                 href=""
                 className="block w-full text-center text-link hover:text-white hover:underline min-[500px]:text-start"

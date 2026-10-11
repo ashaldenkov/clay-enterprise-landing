@@ -16,7 +16,7 @@ const Features = () => {
       <div className="hidden lg:flex lg:items-center">
         <div className="flex h-[550px] shrink-0 basis-1/2 justify-center">
           {openTab === 'contactInformation' && (
-            <div className="flex h-[550px] w-fit animate-FadeIn items-center justify-center overflow-hidden rounded bg-[#f8cc65]">
+            <div className="flex h-[550px] w-fit animate-FadeIn items-center justify-center overflow-hidden rounded-sm bg-[#f8cc65]">
               <Image
                 src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/667c6fe5e3e6ba2b534ed974_1-contact-information-updated.webp"
                 width={550}
@@ -29,7 +29,7 @@ const Features = () => {
             </div>
           )}
           {openTab === 'intentData' && (
-            <div className="flex h-[550px] animate-FadeIn items-center justify-center overflow-hidden rounded bg-[#038ff7]">
+            <div className="flex h-[550px] animate-FadeIn items-center justify-center overflow-hidden rounded-sm bg-[#038ff7]">
               <Image
                 src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/667b0818c24902a0664a415e_2_intent_data.webp"
                 width={550}
@@ -41,7 +41,7 @@ const Features = () => {
             </div>
           )}
           {openTab === 'firmographic' && (
-            <div className="flex h-full animate-FadeIn items-center justify-center overflow-hidden rounded bg-[#a789fe]">
+            <div className="flex h-full animate-FadeIn items-center justify-center overflow-hidden rounded-sm bg-[#a789fe]">
               <Image
                 src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/667b0818682e595eca4f6425_3_firmographic.webp"
                 width={526}
@@ -54,7 +54,7 @@ const Features = () => {
             </div>
           )}
           {openTab === 'anyData' && (
-            <div className='flex h-full w-full animate-FadeIn flex-col items-center gap-2 overflow-y-scroll rounded bg-[#eff1f3] bg-[url("https://cdn.prod.website-files.com/61477f2c24a826836f969afe/65aa9c8aaa5008abcaffbe28_img-claymation-arrow.png")] bg-[length:220px] bg-scroll bg-right-bottom bg-no-repeat'>
+            <div className='flex h-full w-full animate-FadeIn flex-col items-center gap-2 overflow-y-scroll rounded-sm bg-borderBg bg-[url("https://cdn.prod.website-files.com/61477f2c24a826836f969afe/65aa9c8aaa5008abcaffbe28_img-claymation-arrow.png")] bg-size-[220px] bg-scroll bg-bottom-right bg-no-repeat'>
               <div className="w-fit rounded-2xl border border-borderDrop bg-listBg p-1">
                 <div className="flex h-[50px] items-center rounded-xl border border-borderDrop bg-white shadow-[0_17px_20px_-10px_#0003]">
                   <div className="px-3 text-xs">
@@ -145,7 +145,7 @@ const Features = () => {
         <div className="mb-6 ml-[10%] basis-1/2 lg:gap-8">
           <button
             className={
-              `w-full border-b border-[#d8d8d8] pb-4 pr-8 pt-6 text-left` +
+              `w-full border-b border-[#d8d8d8] pt-6 pr-8 pb-4 text-left` +
               (openTab === 'contactInformation'
                 ? ' text-black'
                 : ' text-[#757575] hover:text-[#038ff7]')
@@ -165,7 +165,7 @@ const Features = () => {
           </button>
           <button
             className={
-              `w-full border-b border-[#d8d8d8] pb-4 pr-8 pt-6 text-left` +
+              `w-full border-b border-[#d8d8d8] pt-6 pr-8 pb-4 text-left` +
               (openTab === 'intentData'
                 ? ' text-black'
                 : ' text-[#757575] hover:text-[#038ff7]')
@@ -186,7 +186,7 @@ const Features = () => {
           </button>
           <button
             className={
-              `w-full border-b border-[#d8d8d8] pb-4 pr-8 pt-6 text-left` +
+              `w-full border-b border-[#d8d8d8] pt-6 pr-8 pb-4 text-left` +
               (openTab === 'firmographic'
                 ? ' text-black'
                 : ' text-[#757575] hover:text-[#038ff7]')
@@ -208,7 +208,7 @@ const Features = () => {
           </button>
           <button
             className={
-              `w-full border-b border-[#d8d8d8] pb-4 pr-8 pt-6 text-left` +
+              `w-full border-b border-[#d8d8d8] pt-6 pr-8 pb-4 text-left` +
               (openTab === 'anyData'
                 ? ' text-black'
                 : ' text-[#757575] hover:text-[#038ff7]')
@@ -234,7 +234,7 @@ const Features = () => {
       {/* mobile flex*/}
       <div className="lg:hidden">
         <div className="mt-8">
-          <div className='md:h-500px mb-8 flex h-[230px] items-center justify-center overflow-hidden bg-[url("https://cdn.prod.website-files.com/61477f2c24a826836f969afe/65e5d9bcf1b8b39167d7d74a_claymation-green.webp"),linear-gradient(to_bottom,rgba(4,126,74,1),rgba(4,126,74,1))] bg-auto bg-right bg-no-repeat min-[500px]:h-[400px]'>
+          <div className='mb-8 flex h-[230px] items-center justify-center overflow-hidden bg-[url("https://cdn.prod.website-files.com/61477f2c24a826836f969afe/65e5d9bcf1b8b39167d7d74a_claymation-green.webp"),linear-gradient(to_bottom,rgba(4,126,74,1),rgba(4,126,74,1))] bg-auto bg-right bg-no-repeat min-[500px]:h-[400px] md:h-[500px]'>
             <Image
               src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/667c7056ab522b4497a01523_1-contact-information-tablet.webp"
               width={500}
@@ -253,7 +253,7 @@ const Features = () => {
           </div>
         </div>
         <div className="mt-8">
-          <div className='md:h-500px mb-8 flex h-[230px] items-center justify-center overflow-hidden bg-[url("https://cdn.prod.website-files.com/61477f2c24a826836f969afe/66591051c3654b176d0fec29_blue-bg_1x.webp")] bg-auto bg-[left_-10px_center] bg-no-repeat min-[500px]:h-[400px]'>
+          <div className='mb-8 flex h-[230px] items-center justify-center overflow-hidden bg-[url("https://cdn.prod.website-files.com/61477f2c24a826836f969afe/66591051c3654b176d0fec29_blue-bg_1x.webp")] bg-auto bg-position-[left_-10px_center] bg-no-repeat min-[500px]:h-[400px] md:h-[500px]'>
             <Image
               src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/667b0c33e0f11182606ad96b_2_intent_data-tablet.webp"
               width={500}
@@ -272,7 +272,7 @@ const Features = () => {
           </div>
         </div>
         <div className="mt-8">
-          <div className="md:h-500px mb-8 flex h-[230px] items-center justify-center overflow-hidden bg-[linear-gradient(to_bottom,#9170e6,#9170e6)] bg-auto bg-right bg-no-repeat min-[500px]:h-[400px]">
+          <div className="mb-8 flex h-[230px] items-center justify-center overflow-hidden bg-[linear-gradient(to_bottom,#9170e6,#9170e6)] bg-auto bg-right bg-no-repeat min-[500px]:h-[400px] md:h-[500px]">
             <Image
               src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/667b0c330b0ee6ffac47decc_3_firmographic-tablet.webp"
               width={526}
@@ -292,15 +292,15 @@ const Features = () => {
           </div>
         </div>
         <div className="mt-8">
-          <div className="md:h-500px relative mb-8 h-[230px] overflow-hidden overflow-y-scroll bg-[#eff1f3] min-[500px]:h-[400px]">
+          <div className="relative mb-8 h-[230px] overflow-hidden overflow-y-scroll bg-borderBg min-[500px]:h-[400px] md:h-[500px]">
             <Image
               src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/65aa9c8aaa5008abcaffbe28_img-claymation-arrow.png"
               width={500}
               height={666}
-              className="absolute bottom-0 right-0 w-[150px]"
+              className="absolute right-0 bottom-0 w-[150px]"
               alt=""
             />
-            <div className="flex h-[768px] -translate-y-[20px] flex-col items-center justify-center gap-2">
+            <div className="flex h-[768px] translate-y-[-20px] flex-col items-center justify-center gap-2">
               <div className="w-fit rounded-2xl border border-borderDrop bg-listBg p-1">
                 <div className="flex h-[50px] items-center rounded-xl border border-borderDrop bg-white shadow-[0_17px_20px_-10px_#0003]">
                   <div className="px-3 text-xs">
@@ -401,7 +401,7 @@ const Features = () => {
       </div>
       {/* features */}
       <div className="mt-8 grid grid-cols-1 grid-rows-4 gap-5 pb-[48px] min-[500px]:grid-cols-2 min-[500px]:grid-rows-2 md:pb-[64px] lg:grid-cols-4 lg:grid-rows-1 lg:pb-[96px]">
-        <div className="border-gray border p-4">
+        <div className="border p-4">
           <Image
             src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/667b3488cb96c15de1b10318_image%20407.png"
             width={71}
@@ -415,7 +415,7 @@ const Features = () => {
             and messaging) into end-to-end campaigns for any outreach use case.
           </div>
         </div>
-        <div className="border-gray border p-4">
+        <div className="border p-4">
           <Image
             src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6696c286e983c04a8f9800b8_3d-icon-blog.avif"
             width={71}
@@ -430,7 +430,7 @@ const Features = () => {
             multiple tools at once to find any data point.
           </div>
         </div>
-        <div className="border-gray border p-4">
+        <div className="border p-4">
           <Image
             src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/667b348158420e10a2d5b189_image%20406.png"
             width={71}
@@ -445,7 +445,7 @@ const Features = () => {
             of security risk again.
           </div>
         </div>
-        <div className="border-gray border p-4">
+        <div className="border p-4">
           <Image
             src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/66968abd0cad0edd25c3a333_3d-icon-glass.avif"
             width={71}
@@ -477,7 +477,7 @@ const Features = () => {
           <div className="mb-6 lg:flex lg:gap-8">
             <button
               className={
-                `h-[50px] w-full rounded border border-inactiveTabsBorder transition-all duration-300 hover:border-gray-300 hover:text-black max-lg:mb-4` +
+                `h-[50px] w-full rounded-sm border border-inactiveTabsBorder transition-all duration-300 hover:border-gray-300 hover:text-black max-lg:mb-4` +
                 (useCaseTab === 'inbound'
                   ? ' bg-borderBg'
                   : ' bg-white text-featureGrey hover:bg-inactiveTabsBorder')
@@ -491,7 +491,7 @@ const Features = () => {
             </button>
             <button
               className={
-                `h-[50px] w-full rounded border border-inactiveTabsBorder transition-all duration-300 hover:border-gray-300 hover:text-black` +
+                `h-[50px] w-full rounded-sm border border-inactiveTabsBorder transition-all duration-300 hover:border-gray-300 hover:text-black` +
                 (useCaseTab === 'outbound'
                   ? ' bg-borderBg'
                   : ' bg-white text-featureGrey hover:bg-inactiveTabsBorder')
@@ -509,11 +509,11 @@ const Features = () => {
             <div
               className={`${useCaseTab === 'inbound' ? 'block animate-FadeIn lg:flex lg:gap-8' : 'hidden animate-FadeOut'}`}
             >
-              <div className="mb-8 flex w-full flex-col rounded border border-gray-300 p-6 md:p-10 lg:basis-1/2 lg:p-[80px]">
-                <div className="text-2xl md:text-3xl md:text-[32px]">
+              <div className="mb-8 flex w-full flex-col rounded-sm border border-gray-300 p-6 md:p-10 lg:basis-1/2 lg:p-[80px]">
+                <div className="text-2xl md:text-[32px] md:leading-9">
                   Enrich & filter your inbound leads to reach the best prospects
                 </div>
-                <p className="mb-6 mt-4 leading-5">
+                <p className="mt-4 mb-6 leading-5">
                   When you have thousands of inbound leads, you need to quickly
                   prioritize the best fits for your team. Enrich leads with
                   contact info, firmographics, and more — then use AI to draft
@@ -522,7 +522,7 @@ const Features = () => {
                 <ContactBtn />
               </div>
 
-              <div className='mb-8 flex aspect-square items-center justify-center overflow-hidden bg-[url("https://cdn.prod.website-files.com/61477f2c24a826836f969afe/66591051c3654b176d0fec29_blue-bg_1x.webp")] bg-auto bg-[left_-10px] bg-no-repeat lg:basis-1/2'>
+              <div className='mb-8 flex aspect-square items-center justify-center overflow-hidden bg-[url("https://cdn.prod.website-files.com/61477f2c24a826836f969afe/66591051c3654b176d0fec29_blue-bg_1x.webp")] bg-auto bg-position-[left_-10px] bg-no-repeat lg:basis-1/2'>
                 <Image
                   src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/667ac73de112f572b1617117_table-inbound.webp"
                   width={800}
@@ -537,11 +537,11 @@ const Features = () => {
             <div
               className={`${useCaseTab === 'outbound' ? 'block animate-FadeIn lg:flex lg:gap-8' : 'hidden animate-FadeOut'}`}
             >
-              <div className="mb-8 flex w-full flex-col rounded border border-gray-300 p-6 md:p-10 lg:basis-1/2 lg:p-[80px]">
-                <div className="text-2xl md:text-3xl md:text-[32px]">
+              <div className="mb-8 flex w-full flex-col rounded-sm border border-gray-300 p-6 md:p-10 lg:basis-1/2 lg:p-[80px]">
+                <div className="text-2xl md:text-[32px] md:leading-9">
                   Build lists, enrich, and message leads in seconds
                 </div>
-                <p className="mb-6 mt-4 leading-5">
+                <p className="mt-4 mb-6 leading-5">
                   Are you targeting large customers? Use a white glove approach
                   and leverage Clay to keep your CRM updated and automate the
                   prospecting part of going after enterprises.
@@ -549,7 +549,7 @@ const Features = () => {
                 <ContactBtn />
               </div>
 
-              <div className='lg: mb-8 flex aspect-square items-center justify-center overflow-hidden bg-[url("https://cdn.prod.website-files.com/61477f2c24a826836f969afe/66591022c3654b176d0fbd4c_yellow_bg_1x.webp")] bg-[url("https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6659103311a644d4b776fc2d_pink-bg_1x.webp")] bg-cover bg-[left_-10px_center] bg-no-repeat lg:basis-1/2'>
+              <div className='mb-8 flex aspect-square items-center justify-center overflow-hidden bg-[url("https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6659103311a644d4b776fc2d_pink-bg_1x.webp")] bg-cover bg-position-[left_-10px_center] bg-no-repeat lg:basis-1/2'>
                 <Image
                   src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/667ac773196275007a83447f_table-outbound.webp"
                   width={800}
@@ -575,11 +575,11 @@ const Features = () => {
           alt=""
           className="mb-8 h-fit max-lg:w-full lg:basis-1/2"
         />
-        <div className="mb-8 flex w-full flex-col rounded border border-gray-200 p-6 md:p-10 lg:basis-1/2 lg:p-[80px]">
-          <div className="py mb-3 w-fit rounded border border-purple-300 bg-purple-200 px-3 text-xs leading-6 text-purple-700 lg:mb-6">
+        <div className="mb-8 flex w-full flex-col rounded-sm border border-gray-200 p-6 md:p-10 lg:basis-1/2 lg:p-[80px]">
+          <div className="mb-3 w-fit rounded-sm border border-purple-300 bg-purple-200 px-3 text-xs leading-6 text-purple-700 lg:mb-6">
             Salesforce package
           </div>
-          <div className="text-2xl md:text-3xl md:text-[32px]">
+          <div className="text-2xl md:text-[32px] md:leading-9">
             Automate prospecting and data enrichment—without leaving Salesforce
           </div>
           <p className="my-6">
@@ -588,9 +588,9 @@ const Features = () => {
           </p>
           <Link
             href=""
-            className="group flex w-fit items-center rounded border border-black px-4 py-2 transition duration-300 hover:opacity-80"
+            className="group flex w-fit items-center rounded-sm border border-black px-4 py-2 transition duration-300 hover:opacity-80"
           >
-            <div className="text-wrap text-base">
+            <div className="text-base text-wrap">
               Learn more about our Salesforce package
             </div>
             <div className="ml-2 h-5 w-5 overflow-hidden">

@@ -51,8 +51,8 @@ const Learning = () => {
         </div>
         <div>
           <SwiperSlide>
-            <div className="h-[397px] w-full rounded-lg border border-inactiveTabsBorder bg-borderBg p-2 transition-shadow duration-[400] lg:hover:shadow-[0_50px_80px_-40px_#0006]">
-              <div className="flex h-full w-full flex-col justify-between rounded border border-inactiveTabsBorder bg-white p-4">
+            <div className="h-[397px] w-full rounded-lg border border-inactiveTabsBorder bg-borderBg p-2 transition-shadow duration-400 lg:hover:shadow-[0_50px_80px_-40px_#0006]">
+              <div className="flex h-full w-full flex-col justify-between rounded-sm border border-inactiveTabsBorder bg-white p-4">
                 <div className="mb-4 h-[146px] w-full overflow-hidden rounded-lg">
                   <Image
                     src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/667aaafa589fa709b9e5af02_uni.avif"
@@ -70,9 +70,9 @@ const Learning = () => {
                 </div>
                 <Link
                   href=""
-                  className="group mt-auto flex h-fit w-fit items-center rounded transition duration-300 hover:opacity-80"
+                  className="group mt-auto flex h-fit w-fit items-center rounded-sm transition duration-300 hover:opacity-80"
                 >
-                  <div className="text-nowrap text-sm">Learn with Clay</div>
+                  <div className="text-sm text-nowrap">Learn with Clay</div>
                   <div className="ml-2 h-5 w-5 overflow-hidden">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -102,8 +102,8 @@ const Learning = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="h-[397px] w-full rounded-lg border border-inactiveTabsBorder bg-borderBg p-2 transition-shadow duration-[400] lg:hover:shadow-[0_50px_80px_-40px_#0006]">
-              <div className="flex h-full w-full flex-col justify-between rounded border border-inactiveTabsBorder bg-white p-4">
+            <div className="h-[397px] w-full rounded-lg border border-inactiveTabsBorder bg-borderBg p-2 transition-shadow duration-400 lg:hover:shadow-[0_50px_80px_-40px_#0006]">
+              <div className="flex h-full w-full flex-col justify-between rounded-sm border border-inactiveTabsBorder bg-white p-4">
                 <div className="mb-4 h-[146px] w-full overflow-hidden rounded-lg">
                   <Image
                     src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/66b1d628d8d2c551e76e54c1_img-automated-inbound.webp"
@@ -120,9 +120,9 @@ const Learning = () => {
                 </div>
                 <Link
                   href=""
-                  className="group mt-auto flex h-fit w-fit items-center rounded transition duration-300 hover:opacity-80"
+                  className="group mt-auto flex h-fit w-fit items-center rounded-sm transition duration-300 hover:opacity-80"
                 >
-                  <div className="text-nowrap text-sm">Explore our blog</div>
+                  <div className="text-sm text-nowrap">Explore our blog</div>
                   <div className="ml-2 h-5 w-5 overflow-hidden">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -152,8 +152,8 @@ const Learning = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="h-[397px] w-full rounded-lg border border-inactiveTabsBorder bg-borderBg p-2 transition-shadow duration-[400] lg:hover:shadow-[0_50px_80px_-40px_#0006]">
-              <div className="flex h-full w-full flex-col justify-between rounded border border-inactiveTabsBorder bg-white p-4">
+            <div className="h-[397px] w-full rounded-lg border border-inactiveTabsBorder bg-borderBg p-2 transition-shadow duration-400 lg:hover:shadow-[0_50px_80px_-40px_#0006]">
+              <div className="flex h-full w-full flex-col justify-between rounded-sm border border-inactiveTabsBorder bg-white p-4">
                 <div className="mb-4 h-[146px] w-full overflow-hidden rounded-lg">
                   <Image
                     src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/667aaad3cf4abed74dcdfc01_templates.webp"
@@ -170,9 +170,9 @@ const Learning = () => {
                 </div>
                 <Link
                   href=""
-                  className="group mt-auto flex h-fit w-fit items-center rounded transition duration-300 hover:opacity-80"
+                  className="group mt-auto flex h-fit w-fit items-center rounded-sm transition duration-300 hover:opacity-80"
                 >
-                  <div className="text-nowrap text-sm">Check integrations</div>
+                  <div className="text-sm text-nowrap">Check integrations</div>
                   <div className="ml-2 h-5 w-5 overflow-hidden">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -202,8 +202,8 @@ const Learning = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="h-[397px] w-full rounded-lg border border-inactiveTabsBorder bg-borderBg p-2 transition-shadow duration-[400] lg:hover:shadow-[0_50px_80px_-40px_#0006]">
-              <div className="flex h-full w-full flex-col justify-between rounded border border-inactiveTabsBorder bg-white p-4">
+            <div className="h-[397px] w-full rounded-lg border border-inactiveTabsBorder bg-borderBg p-2 transition-shadow duration-400 lg:hover:shadow-[0_50px_80px_-40px_#0006]">
+              <div className="flex h-full w-full flex-col justify-between rounded-sm border border-inactiveTabsBorder bg-white p-4">
                 <div className="mb-4 h-[146px] w-full overflow-hidden rounded-lg">
                   <Image
                     src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/667aaad276b3f971b3cb3947_templat.webp"
@@ -220,9 +220,9 @@ const Learning = () => {
                 </div>
                 <Link
                   href=""
-                  className="group mt-auto flex h-fit w-fit items-center rounded transition duration-300 hover:opacity-80"
+                  className="group mt-auto flex h-fit w-fit items-center rounded-sm transition duration-300 hover:opacity-80"
                 >
-                  <div className="text-nowrap text-sm">
+                  <div className="text-sm text-nowrap">
                     Visit Clay templates
                   </div>
                   <div className="ml-2 h-5 w-5 overflow-hidden">
@@ -254,8 +254,8 @@ const Learning = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="h-[397px] w-full rounded-lg border border-inactiveTabsBorder bg-borderBg p-2 transition-shadow duration-[400] lg:hover:shadow-[0_50px_80px_-40px_#0006]">
-              <div className="flex h-full w-full flex-col justify-between rounded border border-inactiveTabsBorder bg-white p-4">
+            <div className="h-[397px] w-full rounded-lg border border-inactiveTabsBorder bg-borderBg p-2 transition-shadow duration-400 lg:hover:shadow-[0_50px_80px_-40px_#0006]">
+              <div className="flex h-full w-full flex-col justify-between rounded-sm border border-inactiveTabsBorder bg-white p-4">
                 <div className="mb-4 h-[146px] w-full overflow-hidden rounded-lg">
                   <Image
                     src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/667ad04b00efbba934486bff_blog-grain.webp"
@@ -273,9 +273,9 @@ const Learning = () => {
                 </div>
                 <Link
                   href=""
-                  className="group mt-auto flex h-fit w-fit items-center rounded transition duration-300 hover:opacity-80"
+                  className="group mt-auto flex h-fit w-fit items-center rounded-sm transition duration-300 hover:opacity-80"
                 >
-                  <div className="text-nowrap text-sm">
+                  <div className="text-sm text-nowrap">
                     Explore Clay experts
                   </div>
                   <div className="ml-2 h-5 w-5 overflow-hidden">
@@ -307,8 +307,8 @@ const Learning = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="h-[397px] w-full rounded-lg border border-inactiveTabsBorder bg-borderBg p-2 transition-shadow duration-[400] lg:hover:shadow-[0_50px_80px_-40px_#0006]">
-              <div className="flex h-full w-full flex-col justify-between rounded border border-inactiveTabsBorder bg-white p-4">
+            <div className="h-[397px] w-full rounded-lg border border-inactiveTabsBorder bg-borderBg p-2 transition-shadow duration-400 lg:hover:shadow-[0_50px_80px_-40px_#0006]">
+              <div className="flex h-full w-full flex-col justify-between rounded-sm border border-inactiveTabsBorder bg-white p-4">
                 <div className="mb-4 h-[146px] w-full overflow-hidden rounded-lg">
                   <Image
                     src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/667ad04bb0260b5fc271d7b3_chrome-grain.webp"
@@ -326,9 +326,9 @@ const Learning = () => {
                 </div>
                 <Link
                   href=""
-                  className="group mt-auto flex h-fit w-fit items-center rounded transition duration-300 hover:opacity-80"
+                  className="group mt-auto flex h-fit w-fit items-center rounded-sm transition duration-300 hover:opacity-80"
                 >
-                  <div className="text-nowrap text-sm">
+                  <div className="text-sm text-nowrap">
                     Explore Chrome Extension
                   </div>
                   <div className="ml-2 h-5 w-5 overflow-hidden">

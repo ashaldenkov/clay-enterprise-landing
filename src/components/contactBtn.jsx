@@ -5,9 +5,9 @@ const ContactBtn = () => {
   return (
     <Link
       href=""
-      className="group flex h-fit w-fit items-center rounded bg-black px-4 py-2 text-white transition duration-300 hover:opacity-80"
+      className="group flex h-fit w-fit items-center rounded-sm bg-black px-4 py-2 text-white transition duration-300 hover:opacity-80"
     >
-      <div className="text-nowrap text-base">Talk to a GTM Engineer</div>
+      <div className="text-base text-nowrap">Talk to a GTM Engineer</div>
       <div className="ml-2 h-5 w-5 overflow-hidden">
         <svg
           xmlns="http://www.w3.org/2000/svg"

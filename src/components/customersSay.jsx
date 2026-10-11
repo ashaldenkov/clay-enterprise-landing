@@ -45,8 +45,8 @@ const CustomersSay = () => {
 
         <div>
           <SwiperSlide>
-            <div className="h-[533px] w-full rounded-lg bg-[#0382F7] p-2 transition-shadow duration-[400] md:h-[492px] lg:h-[455px] lg:hover:shadow-[0_50px_80px_-40px_#0006]">
-              <div className="flex h-full w-full flex-col justify-between gap-4 rounded bg-white p-4">
+            <div className="h-[533px] w-full rounded-lg bg-[#0382F7] p-2 transition-shadow duration-400 md:h-[492px] lg:h-[455px] lg:hover:shadow-[0_50px_80px_-40px_#0006]">
+              <div className="flex h-full w-full flex-col justify-between gap-4 rounded-sm bg-white p-4">
                 <Image
                   src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/664d6fb7115ae062aa4da176_quote-icon.svg"
                   width={17}
@@ -64,7 +64,7 @@ const CustomersSay = () => {
                       src="https://cdn.prod.website-files.com/61702af2e3966e09c4101538/66756a7232ecd63cd322883e_keith-jones.avif"
                       width={76}
                       height={76}
-                      className="rounded border-2 border-black"
+                      className="rounded-sm border-2 border-black"
                       alt=""
                     />
                     <div>
@@ -83,8 +83,8 @@ const CustomersSay = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="h-[533px] w-full rounded-lg bg-[#FDAD15] p-2 transition-shadow duration-[400] md:h-[492px] lg:h-[455px] lg:hover:shadow-[0_50px_80px_-40px_#0006]">
-              <div className="flex h-full w-full flex-col justify-between gap-4 rounded bg-white p-4">
+            <div className="h-[533px] w-full rounded-lg bg-[#FDAD15] p-2 transition-shadow duration-400 md:h-[492px] lg:h-[455px] lg:hover:shadow-[0_50px_80px_-40px_#0006]">
+              <div className="flex h-full w-full flex-col justify-between gap-4 rounded-sm bg-white p-4">
                 <Image
                   src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/664d6fb7115ae062aa4da176_quote-icon.svg"
                   width={17}
@@ -103,7 +103,7 @@ const CustomersSay = () => {
                       src="https://cdn.prod.website-files.com/61702af2e3966e09c4101538/667c376cac4c1c2f449dc5c6_image%20(11).avif"
                       width={76}
                       height={76}
-                      className="rounded border-2 border-black"
+                      className="rounded-sm border-2 border-black"
                       alt=""
                     />
                     <div>
@@ -122,8 +122,8 @@ const CustomersSay = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="h-[533px] w-full rounded-lg bg-[#EFF1F3] p-2 transition-shadow duration-[400] md:h-[492px] lg:h-[455px] lg:hover:shadow-[0_50px_80px_-40px_#0006]">
-              <div className="flex h-full w-full flex-col justify-between gap-4 rounded bg-white p-4">
+            <div className="h-[533px] w-full rounded-lg bg-borderBg p-2 transition-shadow duration-400 md:h-[492px] lg:h-[455px] lg:hover:shadow-[0_50px_80px_-40px_#0006]">
+              <div className="flex h-full w-full flex-col justify-between gap-4 rounded-sm bg-white p-4">
                 <Image
                   src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/664d6fb7115ae062aa4da176_quote-icon.svg"
                   width={17}
@@ -146,7 +146,7 @@ const CustomersSay = () => {
                       src="https://cdn.prod.website-files.com/61702af2e3966e09c4101538/667b1c28e0f601dece9badaf_image%20(7).avif"
                       width={76}
                       height={76}
-                      className="rounded border-2 border-black"
+                      className="rounded-sm border-2 border-black"
                       alt=""
                     />
                     <div>
@@ -165,8 +165,8 @@ const CustomersSay = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="h-[533px] w-full rounded-lg bg-[#DD2C53] p-2 transition-shadow duration-[400] md:h-[492px] lg:h-[455px] lg:hover:shadow-[0_50px_80px_-40px_#0006]">
-              <div className="flex h-full w-full flex-col justify-between gap-4 rounded bg-white p-4">
+            <div className="h-[533px] w-full rounded-lg bg-[#DD2C53] p-2 transition-shadow duration-400 md:h-[492px] lg:h-[455px] lg:hover:shadow-[0_50px_80px_-40px_#0006]">
+              <div className="flex h-full w-full flex-col justify-between gap-4 rounded-sm bg-white p-4">
                 <Image
                   src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/664d6fb7115ae062aa4da176_quote-icon.svg"
                   loading="lazy"
@@ -187,7 +187,7 @@ const CustomersSay = () => {
                       loading="lazy"
                       width={76}
                       height={76}
-                      className="rounded border-2 border-black"
+                      className="rounded-sm border-2 border-black"
                       alt=""
                     />
                     <div>
@@ -209,8 +209,8 @@ const CustomersSay = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="h-[533px] w-full rounded-lg bg-[#0382F7] p-2 transition-shadow duration-[400] md:h-[492px] lg:h-[455px] lg:hover:shadow-[0_50px_80px_-40px_#0006]">
-              <div className="flex h-full w-full flex-col justify-between gap-4 rounded bg-white p-4">
+            <div className="h-[533px] w-full rounded-lg bg-[#0382F7] p-2 transition-shadow duration-400 md:h-[492px] lg:h-[455px] lg:hover:shadow-[0_50px_80px_-40px_#0006]">
+              <div className="flex h-full w-full flex-col justify-between gap-4 rounded-sm bg-white p-4">
                 <Image
                   src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/664d6fb7115ae062aa4da176_quote-icon.svg"
                   loading="lazy"
@@ -233,7 +233,7 @@ const CustomersSay = () => {
                       loading="lazy"
                       width={76}
                       height={76}
-                      className="rounded border-2 border-black"
+                      className="rounded-sm border-2 border-black"
                       alt=""
                     />
                     <div>
@@ -253,8 +253,8 @@ const CustomersSay = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="h-[533px] w-full rounded-lg bg-[#3ECE82] p-2 transition-shadow duration-[400] md:h-[492px] lg:h-[455px] lg:hover:shadow-[0_50px_80px_-40px_#0006]">
-              <div className="flex h-full w-full flex-col justify-between gap-4 rounded bg-white p-4">
+            <div className="h-[533px] w-full rounded-lg bg-[#3ECE82] p-2 transition-shadow duration-400 md:h-[492px] lg:h-[455px] lg:hover:shadow-[0_50px_80px_-40px_#0006]">
+              <div className="flex h-full w-full flex-col justify-between gap-4 rounded-sm bg-white p-4">
                 <Image
                   src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/664d6fb7115ae062aa4da176_quote-icon.svg"
                   loading="lazy"
@@ -276,7 +276,7 @@ const CustomersSay = () => {
                       loading="lazy"
                       width={76}
                       height={76}
-                      className="rounded border-2 border-black"
+                      className="rounded-sm border-2 border-black"
                       alt=""
                     />
                     <div>
@@ -298,8 +298,8 @@ const CustomersSay = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="h-[533px] w-full rounded-lg bg-[#EEE9DF] p-2 transition-shadow duration-[400] md:h-[492px] lg:h-[455px] lg:hover:shadow-[0_50px_80px_-40px_#0006]">
-              <div className="flex h-full w-full flex-col justify-between gap-4 rounded bg-white p-4">
+            <div className="h-[533px] w-full rounded-lg bg-[#EEE9DF] p-2 transition-shadow duration-400 md:h-[492px] lg:h-[455px] lg:hover:shadow-[0_50px_80px_-40px_#0006]">
+              <div className="flex h-full w-full flex-col justify-between gap-4 rounded-sm bg-white p-4">
                 <Image
                   src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/664d6fb7115ae062aa4da176_quote-icon.svg"
                   loading="lazy"
@@ -322,7 +322,7 @@ const CustomersSay = () => {
                       loading="lazy"
                       width={76}
                       height={76}
-                      className="rounded border-2 border-black"
+                      className="rounded-sm border-2 border-black"
                       alt=""
                     />
                     <div>
@@ -342,8 +342,8 @@ const CustomersSay = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="h-[533px] w-full rounded-lg bg-[#5C15CC] p-2 transition-shadow duration-[400] md:h-[492px] lg:h-[455px] lg:hover:shadow-[0_50px_80px_-40px_#0006]">
-              <div className="flex h-full w-full flex-col justify-between gap-4 rounded bg-white p-4">
+            <div className="h-[533px] w-full rounded-lg bg-[#5C15CC] p-2 transition-shadow duration-400 md:h-[492px] lg:h-[455px] lg:hover:shadow-[0_50px_80px_-40px_#0006]">
+              <div className="flex h-full w-full flex-col justify-between gap-4 rounded-sm bg-white p-4">
                 <Image
                   src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/664d6fb7115ae062aa4da176_quote-icon.svg"
                   loading="lazy"
@@ -367,7 +367,7 @@ const CustomersSay = () => {
                       loading="lazy"
                       width={76}
                       height={76}
-                      className="rounded border-2 border-black"
+                      className="rounded-sm border-2 border-black"
                       alt=""
                     />
                     <div>

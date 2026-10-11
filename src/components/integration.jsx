@@ -33,7 +33,7 @@ const Integration = () => {
           <div className="mb-3 text-3xl md:text-4xl lg:text-5xl">
             Clay in your team
           </div>
-          <div className="mb-8 mt-6 md:flex md:items-end md:justify-between">
+          <div className="mt-6 mb-8 md:flex md:items-end md:justify-between">
             <div className="basis-1/2 max-md:mb-8 md:text-lg lg:text-xl">
               We are the backend data enrichment and orchestration layer that
               sets up your sales team for success.

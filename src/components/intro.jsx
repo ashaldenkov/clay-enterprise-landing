@@ -5,10 +5,10 @@ import TeamList from './teamList'
 
 const Intro = () => {
   return (
-    <div className="overflow-hidden bg-introBg pb-[48px] pt-[64px] md:pb-[64px] lg:pb-[112px] lg:pt-[128px]">
+    <div className="overflow-hidden bg-introBg pt-[64px] pb-[48px] md:pb-[64px] lg:pt-[128px] lg:pb-[112px]">
       <div className="mx-auto max-w-[1240px] px-5 md:px-9 lg:px-6">
         <div className="mb-8 flex h-[28px] items-center">
-          <div className="mr-5 rounded border border-introTextBorder bg-introTextBg px-3 py-1 text-xs text-introTextColor">
+          <div className="mr-5 rounded-sm border border-introTextBorder bg-introTextBg px-3 py-1 text-xs text-introTextColor">
             Enterprise
           </div>
           <div className="ml-5 w-full border-t-2 border-dashed border-black opacity-25"></div>

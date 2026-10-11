@@ -1,3 +1,79 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
+
+@theme {
+  --color-borderDrop: #d6d9df;
+  --color-borderBg: #eff1f3;
+  --color-borderClr: #e5e7eb;
+  --color-socials: #f7f8f9;
+  --color-textGray: #525a69;
+  --color-introBg: #f2f2ed;
+  --color-dropdownSubhead: #6f7787;
+  --color-introTextColor: #5d5f44;
+  --color-introTextBg: #dcddd0;
+  --color-introTextBorder: #c2c2ad;
+  --color-inactiveTabsBorder: #e6e8ec;
+  --color-featureGrey: #717989;
+  --color-listBg: #fcfcfc;
+  --color-imgGradient: #0000003d;
+  --color-link: #e7e8ec99;
+
+  --text-small: 11px;
+  --text-small--line-height: 11px;
+
+  --animate-InAnimation: InAnimation 200ms ease-out forwards;
+  --animate-OutAnimation: OutAnimation 200ms ease-in forwards;
+  --animate-FadeIn: FadeIn 500ms ease-in forwards;
+  --animate-FadeOut: FadeOut 500ms ease-out forwards;
+
+  @keyframes InAnimation {
+    0% {
+      transform: translateY(-410px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+  @keyframes OutAnimation {
+    0% {
+      transform: translateY(0px);
+    }
+    100% {
+      transform: translateY(-410px);
+    }
+  }
+  @keyframes FadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 100%;
+    }
+  }
+  @keyframes FadeOut {
+    0% {
+      opacity: 100%;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+}
+
+/* keep the v3 default border color */
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentcolor);
+  }
+}
+
+/* keep the v3 pointer cursor on buttons */
+@layer base {
+  button:not(:disabled),
+  [role='button']:not(:disabled) {
+    cursor: pointer;
+  }
+}

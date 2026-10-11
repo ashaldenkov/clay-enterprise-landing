@@ -19,7 +19,7 @@ const Header = ({ setScrollBlock }) => {
 
   return (
     <div>
-      <div className="border-gray relative z-20 flex h-[76px] w-full items-center justify-between border-b bg-white px-2 text-sm lg:fixed lg:h-[64px] lg:px-6">
+      <div className="relative z-20 flex h-[76px] w-full items-center justify-between border-b bg-white px-2 text-sm lg:fixed lg:h-[64px] lg:px-6">
         <Link href="" className="flex items-center px-2">
           <Image
             src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/664ffc89ff539b531cc46813_Clay-logo-black-2024.webp"
@@ -33,14 +33,14 @@ const Header = ({ setScrollBlock }) => {
 
         <div className="flex h-full items-center max-lg:hidden">
           {/* PRODUCT */}
-          <div className="group flex h-full cursor-pointer items-center pl-4 pr-2.5 transition duration-300">
+          <div className="group flex h-full cursor-pointer items-center pr-2.5 pl-4 transition duration-300">
             <div>Product</div>
             <Image
               src={DropdownArrow}
-              className="ml-1 h-5 w-5 w-6 transition-all duration-200 group-hover:rotate-180"
+              className="ml-1 size-5 transition-all duration-200 group-hover:rotate-180"
               alt=""
             />
-            <div className="absolute right-1/2 top-[63px] z-10 hidden translate-x-1/2 cursor-default group-hover:block">
+            <div className="absolute top-[63px] right-1/2 z-10 hidden translate-x-1/2 cursor-default group-hover:block">
               <div className="mt-[16px] border border-borderDrop bg-borderBg p-[6.4px]">
                 <div className="flex h-full w-full border border-borderDrop bg-white">
                   <div className="w-[320px]">
@@ -313,14 +313,14 @@ const Header = ({ setScrollBlock }) => {
             </div>
           </div>
           {/* SOLUTIONS */}
-          <div className="group flex h-full cursor-pointer items-center pl-4 pr-2.5 transition duration-300">
+          <div className="group flex h-full cursor-pointer items-center pr-2.5 pl-4 transition duration-300">
             <div>Solutions</div>
             <Image
               src={DropdownArrow}
-              className="ml-1 h-5 w-5 w-6 transition-all duration-200 group-hover:rotate-180"
+              className="ml-1 size-5 transition-all duration-200 group-hover:rotate-180"
               alt=""
             />
-            <div className="absolute right-1/2 top-[63px] z-10 hidden translate-x-1/2 cursor-default group-hover:block">
+            <div className="absolute top-[63px] right-1/2 z-10 hidden translate-x-1/2 cursor-default group-hover:block">
               <div className="mt-[16px] border border-borderDrop bg-borderBg p-[6.4px]">
                 <div className="flex h-full w-full border border-borderDrop bg-white">
                   <div className="w-[320px]">
@@ -403,7 +403,7 @@ const Header = ({ setScrollBlock }) => {
                       CUSTOMER SOLUTIONS
                     </div>
                     <ul className="flex h-[288px] w-full bg-white">
-                      <li className="group/item w-1/2 border-r border-t border-borderClr hover:bg-gray-100">
+                      <li className="group/item w-1/2 border-t border-r border-borderClr hover:bg-gray-100">
                         <Link
                           href=""
                           className="block flex h-full flex-col justify-between p-4"
@@ -413,7 +413,7 @@ const Header = ({ setScrollBlock }) => {
                             targeted ABM campaigns across LinkedIn, email, and
                             direct mail
                           </div>
-                          <div className="relative h-[180px] w-full overflow-hidden rounded">
+                          <div className="relative h-[180px] w-full overflow-hidden rounded-sm">
                             <Image
                               src="https://cdn.prod.website-files.com/61702af2e3966e09c4101538/670175f515ea5801d59eeb45_CSV.avif"
                               width={744}
@@ -433,7 +433,7 @@ const Header = ({ setScrollBlock }) => {
                             How Anthropic uses Clay to 3x their enrichment
                             coverage—with no manual work{' '}
                           </div>
-                          <div className="relative h-[180px] w-full overflow-hidden rounded">
+                          <div className="relative h-[180px] w-full overflow-hidden rounded-sm">
                             <Image
                               src="https://cdn.prod.website-files.com/61702af2e3966e09c4101538/67017619c252f8cb382976c0_CS.avif"
                               width={744}
@@ -451,14 +451,14 @@ const Header = ({ setScrollBlock }) => {
             </div>
           </div>
           {/* RESOURCES */}
-          <div className="group flex h-full cursor-pointer items-center pl-4 pr-2.5 transition duration-300">
+          <div className="group flex h-full cursor-pointer items-center pr-2.5 pl-4 transition duration-300">
             <div>Resources</div>
             <Image
               src={DropdownArrow}
-              className="ml-1 h-5 w-5 w-6 transition-all duration-200 group-hover:rotate-180"
+              className="ml-1 size-5 transition-all duration-200 group-hover:rotate-180"
               alt=""
             />
-            <div className="absolute right-1/2 top-[63px] z-10 hidden translate-x-1/2 cursor-default group-hover:block">
+            <div className="absolute top-[63px] right-1/2 z-10 hidden translate-x-1/2 cursor-default group-hover:block">
               <div className="mt-[16px] border border-borderDrop bg-borderBg p-[6.4px]">
                 <div className="flex h-full w-full border border-borderDrop bg-white">
                   <div className="w-[640px] max-[1300px]:w-[480px]">
@@ -511,7 +511,7 @@ const Header = ({ setScrollBlock }) => {
                           </div>
                         </Link>
                       </li>
-                      <li className="group/item h-[96px] w-[320px] border-b border-r border-borderClr hover:bg-gray-100 max-[1300px]:w-[240px]">
+                      <li className="group/item h-[96px] w-[320px] border-r border-b border-borderClr hover:bg-gray-100 max-[1300px]:w-[240px]">
                         <Link
                           href=""
                           className="flex h-[47px] h-full items-center"
@@ -765,14 +765,14 @@ const Header = ({ setScrollBlock }) => {
             </div>
           </div>
           {/* COMPANY */}
-          <div className="group flex h-full cursor-pointer items-center pl-4 pr-2.5 transition duration-300">
+          <div className="group flex h-full cursor-pointer items-center pr-2.5 pl-4 transition duration-300">
             <div>Company</div>
             <Image
               src={DropdownArrow}
-              className="ml-1 h-5 w-5 w-6 transition-all duration-200 group-hover:rotate-180"
+              className="ml-1 size-5 transition-all duration-200 group-hover:rotate-180"
               alt=""
             />
-            <div className="absolute right-1/2 top-[63px] z-10 hidden translate-x-1/2 cursor-default group-hover:block">
+            <div className="absolute top-[63px] right-1/2 z-10 hidden translate-x-1/2 cursor-default group-hover:block">
               <div className="mt-[16px] border border-borderDrop bg-borderBg p-[6.4px]">
                 <div className="flex h-full w-full border border-borderDrop">
                   <div className="w-[640px] border-l border-borderClr">
@@ -865,12 +865,12 @@ const Header = ({ setScrollBlock }) => {
             </div>
           </div>
           {/* ENTERPRISE */}
-          <div className="group cursor-pointer py-4 pl-4 pr-2.5 transition duration-300">
+          <div className="group cursor-pointer py-4 pr-2.5 pl-4 transition duration-300">
             Enterprise
             <span className="block h-px max-w-0 bg-black transition-all duration-300 group-hover:max-w-full"></span>
           </div>
           {/* PRICING */}
-          <div className="group cursor-pointer py-4 pl-4 pr-2.5 transition duration-300">
+          <div className="group cursor-pointer py-4 pr-2.5 pl-4 transition duration-300">
             Pricing
             <span className="block h-px max-w-0 bg-black transition-all duration-300 group-hover:max-w-full"></span>
           </div>
@@ -906,7 +906,7 @@ const Header = ({ setScrollBlock }) => {
           </button>
           <Link
             href=""
-            className="group flex items-center rounded bg-black px-4 py-2 text-white transition duration-300 hover:opacity-80"
+            className="group flex items-center rounded-sm bg-black px-4 py-2 text-white transition duration-300 hover:opacity-80"
           >
             <div className="text-nowrap">Talk to a GTM Engineer</div>
             <div className="ml-2 h-5 w-5 overflow-hidden">
@@ -939,7 +939,7 @@ const Header = ({ setScrollBlock }) => {
       {/* hamburger menu */}
       {showDiv && (
         <div
-          className={`absolute left-0 top-[76px] z-10 h-[calc(100vh-76px)] w-full ${hamburgerOpen ? 'animate-InAnimation' : 'animate-OutAnimation'}`}
+          className={`absolute top-[76px] left-0 z-10 h-[calc(100vh-76px)] w-full ${hamburgerOpen ? 'animate-InAnimation' : 'animate-OutAnimation'}`}
           onClick={() => setHamburgerOpen(!hamburgerOpen)}
         >
           <BurgerMenu />
