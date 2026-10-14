@@ -2,18 +2,15 @@
 import Image from 'next/image'
 import DropdownArrow from '@/images/dropdown-arrow.svg'
 import Link from 'next/link'
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import useDelayUnmount from '@/hooks/useDelayUnmount'
+import useScrollLock from '@/hooks/useScrollLock'
 import BurgerMenu from './burgerMenu'
 
-const Header = ({ setScrollBlock }) => {
+const Header = () => {
   const [hamburgerOpen, setHamburgerOpen] = useState(false)
   const showDiv = useDelayUnmount(hamburgerOpen, 250)
-
-  // scroll lock on burger open
-  useEffect(() => {
-    setScrollBlock(hamburgerOpen)
-  }, [hamburgerOpen, setScrollBlock])
+  useScrollLock(hamburgerOpen)
 
   const genericHamburgerLine = `h-[2px] w-4 my-[2px] bg-black transition ease transform duration-300`
 
@@ -26,7 +23,7 @@ const Header = ({ setScrollBlock }) => {
             width={694}
             height={219}
             alt="Clay"
-            priority
+            preload
             className="h-7 w-auto"
           />
         </Link>

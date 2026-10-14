@@ -2,5 +2,5 @@
   "semi": false,
   "singleQuote": true,
   "plugins": ["prettier-plugin-tailwindcss"],
-  "tailwindStylesheet": "./src/styles/globals.css"
+  "tailwindStylesheet": "./src/app/globals.css"
 }
