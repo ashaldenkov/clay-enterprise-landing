@@ -1,10 +1,9 @@
-import React from 'react'
-import ContactBtn from './contactBtn'
+import { ContactButton } from '@/components/ui/ContactButton'
 
 const Options = () => {
   return (
-    <div className="mx-auto max-w-[1240px] px-5 md:px-9 lg:px-6">
-      {/* Colsolidate block */}
+    <div className="container-page">
+      {/* Consolidate block */}
       <div className="py-[48px] md:py-[64px] lg:flex lg:py-[96px]">
         <div className="mb-8">
           <div className="text-3xl md:text-4xl lg:text-5xl">
@@ -53,7 +52,7 @@ const Options = () => {
             the perfect outreach.
           </div>
         </div>
-        <ContactBtn />
+        <ContactButton />
       </div>
     </div>
   )

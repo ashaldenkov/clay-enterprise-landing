@@ -1,5 +1,4 @@
 /** @type {import('next').NextConfig} */
-
 const nextConfig = {
   reactStrictMode: true,
   images: {
@@ -7,10 +6,11 @@ const nextConfig = {
       {
         protocol: 'https',
         hostname: 'cdn.prod.website-files.com',
-        port: '',
         pathname: '/**',
       },
     ],
+    // images never change, keep optimized copies for 31 days
+    minimumCacheTTL: 2678400,
   },
 }
 

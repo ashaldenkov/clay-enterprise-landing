@@ -79,3 +79,17 @@
     cursor: pointer;
   }
 }
+
+@utility container-page {
+  margin-inline: auto;
+  max-width: 1240px;
+  padding-inline: --spacing(5);
+
+  @variant md {
+    padding-inline: --spacing(9);
+  }
+
+  @variant lg {
+    padding-inline: --spacing(6);
+  }
+}

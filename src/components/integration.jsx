@@ -1,11 +1,11 @@
-import React from 'react'
-import ContactBtn from './contactBtn'
 import Image from 'next/image'
+import { ContactButton } from '@/components/ui/ContactButton'
+import { asset } from '@/lib/cdn'
 import ClayScreen from '@/images/clayScreen.png'
 
 const Integration = () => {
   return (
-    <div className="mx-auto max-w-[1240px] px-5 md:px-9 lg:px-6">
+    <div className="container-page">
       <div className="py-[16px] md:py-[32px] lg:py-[64px]">
         <div className="lg:flex">
           <div className="mb-8 text-3xl md:text-4xl lg:basis-1/2 lg:text-5xl">
@@ -17,14 +17,7 @@ const Integration = () => {
           </div>
         </div>
         <div className="mt-[48px] flex h-fit w-full items-center justify-center bg-socials">
-          <Image
-            src={ClayScreen}
-            loading="lazy"
-            width={849}
-            height={502}
-            className=""
-            alt=""
-          />
+          <Image src={ClayScreen} width={849} height={502} alt="" />
         </div>
       </div>
 
@@ -38,16 +31,14 @@ const Integration = () => {
               We are the backend data enrichment and orchestration layer that
               sets up your sales team for success.
             </div>
-            <ContactBtn />
+            <ContactButton />
           </div>
         </div>
         <Image
-          src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/667c38e1c437b5d2780211da_group-visual-leads.webp"
-          loading="lazy"
+          src={asset('667c38e1c437b5d2780211da_group-visual-leads.webp')}
           width={1600}
           height={645}
-          sizes="(max-width: 991px) 90vw, 95vw"
-          srcSet="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/667c38e1c437b5d2780211da_group-visual-leads-p-500.webp 500w, https://cdn.prod.website-files.com/61477f2c24a826836f969afe/667c38e1c437b5d2780211da_group-visual-leads-p-800.webp 800w, https://cdn.prod.website-files.com/61477f2c24a826836f969afe/667c38e1c437b5d2780211da_group-visual-leads-p-1080.webp 1080w, https://cdn.prod.website-files.com/61477f2c24a826836f969afe/667c38e1c437b5d2780211da_group-visual-leads-p-1600.webp 1600w, https://cdn.prod.website-files.com/61477f2c24a826836f969afe/667c38e1c437b5d2780211da_group-visual-leads-p-2000.webp 2000w, https://cdn.prod.website-files.com/61477f2c24a826836f969afe/667c38e1c437b5d2780211da_group-visual-leads.webp 2444w"
+          sizes="(min-width: 1240px) 1192px, 95vw"
           className="my-10"
           alt=""
         />

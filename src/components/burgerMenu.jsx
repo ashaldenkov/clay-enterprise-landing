@@ -40,8 +40,8 @@ const BurgerMenu = () => {
                   <div className="flex h-full w-[49px] items-center justify-center border-r border-borderClr md:w-[81px]">
                     <Image
                       src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6696c285a5ca1580d2949393_3d-icon-data.avif"
-                      width={105}
-                      height={106}
+                      width={24}
+                      height={24}
                       className="h-4 w-4 scale-100 transition-all duration-500 md:h-6 md:w-6"
                       alt=""
                     />
@@ -59,8 +59,8 @@ const BurgerMenu = () => {
                   <div className="flex h-full w-[49px] items-center justify-center border-r border-borderClr md:w-[81px] md:border-l">
                     <Image
                       src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6696c2850a2625d36b8b8f1c_3d-icon-list.avif"
-                      width={105}
-                      height={106}
+                      width={24}
+                      height={24}
                       className="h-4 w-4 scale-100 transition-all duration-500 md:h-6 md:w-6"
                       alt=""
                     />
@@ -78,8 +78,8 @@ const BurgerMenu = () => {
                   <div className="flex h-full w-[49px] items-center justify-center border-r border-borderClr md:w-[81px]">
                     <Image
                       src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6696c285ea54e9d33bf44411_3d-icon-outbound.avif"
-                      width={105}
-                      height={106}
+                      width={24}
+                      height={24}
                       className="h-4 w-4 scale-100 transition-all duration-500 md:h-6 md:w-6"
                       alt=""
                     />
@@ -97,8 +97,8 @@ const BurgerMenu = () => {
                   <div className="flex h-full w-[49px] items-center justify-center border-r border-borderClr md:w-[81px] md:border-l">
                     <Image
                       src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6696c2857bfce1dfaeba160e_3d-icon-inbound.avif"
-                      width={105}
-                      height={106}
+                      width={24}
+                      height={24}
                       className="h-4 w-4 scale-100 transition-all duration-500 md:h-6 md:w-6"
                       alt=""
                     />
@@ -116,8 +116,8 @@ const BurgerMenu = () => {
                   <div className="flex h-full w-[49px] items-center justify-center border-r border-borderClr md:w-[81px]">
                     <Image
                       src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6708597ea79851051f846ca0_Claymation.avif"
-                      width={105}
-                      height={106}
+                      width={24}
+                      height={24}
                       className="h-4 w-4 scale-100 transition-all duration-500 md:h-6 md:w-6"
                       alt=""
                     />
@@ -142,8 +142,8 @@ const BurgerMenu = () => {
                   <div className="flex h-full w-[49px] items-center justify-center border-r border-borderClr md:w-[81px]">
                     <Image
                       src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/66968abc88fb18290e684672_3d-icon-wire.avif"
-                      width={105}
-                      height={106}
+                      width={24}
+                      height={24}
                       className="h-4 w-4 scale-100 transition-all duration-500 md:h-6 md:w-6"
                       alt=""
                     />
@@ -162,8 +162,8 @@ const BurgerMenu = () => {
                   <div className="flex h-full w-[49px] items-center justify-center border-r border-borderClr md:w-[81px] md:border-l">
                     <Image
                       src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/66968abca946b59ed38891ca_3d-icon-wave.avif"
-                      width={105}
-                      height={106}
+                      width={24}
+                      height={24}
                       className="h-4 w-4 scale-100 transition-all duration-500 md:h-6 md:w-6"
                       alt=""
                     />
@@ -182,8 +182,8 @@ const BurgerMenu = () => {
                   <div className="flex h-full w-[49px] items-center justify-center border-r border-borderClr md:w-[81px]">
                     <Image
                       src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/66968abcbf6d348e6ec658f1_3d-icon-cirlcle.avif"
-                      width={105}
-                      height={106}
+                      width={24}
+                      height={24}
                       className="h-4 w-4 scale-100 transition-all duration-500 md:h-6 md:w-6"
                       alt=""
                     />
@@ -202,8 +202,8 @@ const BurgerMenu = () => {
                   <div className="flex h-full w-[49px] items-center justify-center border-r border-borderClr md:w-[81px] md:border-l">
                     <Image
                       src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/66968abd0cad0edd25c3a333_3d-icon-glass.avif"
-                      width={105}
-                      height={106}
+                      width={24}
+                      height={24}
                       className="h-4 w-4 scale-100 transition-all duration-500 md:h-6 md:w-6"
                       alt=""
                     />
@@ -290,8 +290,8 @@ const BurgerMenu = () => {
                   <div className="flex h-full w-[49px] items-center justify-center border-r border-borderClr md:w-[81px]">
                     <Image
                       src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/66e48d7baf0d1ed31e280380_RevOps.avif"
-                      width={105}
-                      height={106}
+                      width={24}
+                      height={24}
                       className="h-4 w-4 scale-100 transition-all duration-500 md:h-6 md:w-6"
                       alt=""
                     />
@@ -309,8 +309,8 @@ const BurgerMenu = () => {
                   <div className="flex h-full w-[49px] items-center justify-center border-r border-borderClr md:w-[81px] md:border-l">
                     <Image
                       src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/66e48d7bbebf97135bedbe28_SDR.avif"
-                      width={105}
-                      height={106}
+                      width={24}
+                      height={24}
                       className="h-4 w-4 scale-100 transition-all duration-500 md:h-6 md:w-6"
                       alt=""
                     />
@@ -329,8 +329,8 @@ const BurgerMenu = () => {
                   <div className="flex h-full w-[49px] items-center justify-center border-r border-borderClr md:w-[81px]">
                     <Image
                       src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/66993ba5cf1431caa39bc74b_3d-icon-integrations.avif"
-                      width={105}
-                      height={106}
+                      width={24}
+                      height={24}
                       className="h-4 w-4 scale-100 transition-all duration-500 md:h-6 md:w-6"
                       alt=""
                     />
@@ -421,8 +421,8 @@ const BurgerMenu = () => {
                   <div className="flex h-full w-[49px] items-center justify-center border-r border-borderClr md:w-[81px]">
                     <Image
                       src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6696c2862e602277a94d9090_3d-icon-university.avif"
-                      width={105}
-                      height={106}
+                      width={24}
+                      height={24}
                       className="h-4 w-4 scale-100 transition-all duration-500 md:h-6 md:w-6"
                       alt=""
                     />
@@ -440,8 +440,8 @@ const BurgerMenu = () => {
                   <div className="flex h-full w-[49px] items-center justify-center border-r border-borderClr md:w-[81px] md:border-l">
                     <Image
                       src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/66968abc6de317f059ab70ef_3d-icon-folders.avif"
-                      width={105}
-                      height={106}
+                      width={24}
+                      height={24}
                       className="h-4 w-4 scale-100 transition-all duration-500 md:h-6 md:w-6"
                       alt=""
                     />
@@ -459,8 +459,8 @@ const BurgerMenu = () => {
                   <div className="flex h-full w-[49px] items-center justify-center border-r border-borderClr md:w-[81px]">
                     <Image
                       src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6696c6065558289a2359d904_3d-icon-start.avif"
-                      width={105}
-                      height={106}
+                      width={24}
+                      height={24}
                       className="h-4 w-4 scale-100 transition-all duration-500 md:h-6 md:w-6"
                       alt=""
                     />
@@ -478,8 +478,8 @@ const BurgerMenu = () => {
                   <div className="flex h-full w-[49px] items-center justify-center border-r border-borderClr md:w-[81px] md:border-l">
                     <Image
                       src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6696c286e983c04a8f9800b8_3d-icon-blog.avif"
-                      width={105}
-                      height={106}
+                      width={24}
+                      height={24}
                       className="h-4 w-4 scale-100 transition-all duration-500 md:h-6 md:w-6"
                       alt=""
                     />
@@ -498,8 +498,8 @@ const BurgerMenu = () => {
                   <div className="flex h-full w-[49px] items-center justify-center border-r border-borderClr md:w-[81px]">
                     <Image
                       src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/66eb4ab83112047640fee011_claybooks.avif"
-                      width={105}
-                      height={106}
+                      width={24}
+                      height={24}
                       className="h-4 w-4 scale-100 transition-all duration-500 md:h-6 md:w-6"
                       alt=""
                     />
@@ -517,8 +517,8 @@ const BurgerMenu = () => {
                   <div className="flex h-full w-[49px] items-center justify-center border-r border-borderClr md:w-[81px] md:border-l">
                     <Image
                       src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6696c28592e0cc2fd58c5bd0_3d-icon-slack.avif"
-                      width={105}
-                      height={106}
+                      width={24}
+                      height={24}
                       className="h-4 w-4 scale-100 transition-all duration-500 md:h-6 md:w-6"
                       alt=""
                     />
@@ -544,8 +544,8 @@ const BurgerMenu = () => {
                   <div className="flex h-full w-[49px] items-center justify-center border-r border-borderClr md:ml-2">
                     <Image
                       src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/66993ba68c6d3a3c3009f47a_3d-icon-arrow.avif"
-                      width={105}
-                      height={106}
+                      width={24}
+                      height={24}
                       className="h-4 w-4 scale-100 transition-all duration-500"
                       alt=""
                     />
@@ -558,8 +558,8 @@ const BurgerMenu = () => {
                   <div className="flex h-full w-[49px] items-center justify-center border-r border-borderClr md:ml-2">
                     <Image
                       src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/66993ba55f84c0148beff328_3d-icon-creators.avif"
-                      width={105}
-                      height={106}
+                      width={24}
+                      height={24}
                       className="h-4 w-4 scale-100 transition-all duration-500"
                       alt=""
                     />
@@ -572,8 +572,8 @@ const BurgerMenu = () => {
                   <div className="flex h-full w-[49px] items-center justify-center border-r border-borderClr md:ml-2">
                     <Image
                       src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/66993ba517a7dca21435a3b0_3d-icon-events.avif"
-                      width={105}
-                      height={106}
+                      width={24}
+                      height={24}
                       className="h-4 w-4 scale-100 transition-all duration-500"
                       alt=""
                     />
@@ -586,8 +586,8 @@ const BurgerMenu = () => {
                   <div className="flex h-full w-[49px] items-center justify-center border-r border-borderClr md:ml-2">
                     <Image
                       src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/66993ba5cf1431caa39bc74b_3d-icon-integrations.avif"
-                      width={105}
-                      height={106}
+                      width={24}
+                      height={24}
                       className="h-4 w-4 scale-100 transition-all duration-500"
                       alt=""
                     />
@@ -602,8 +602,8 @@ const BurgerMenu = () => {
                   <div className="flex h-full w-[49px] items-center justify-center border-r border-borderClr md:ml-2">
                     <Image
                       src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/66993ba5cdfc3502b47537a0_3d-icon-faq.avif"
-                      width={105}
-                      height={106}
+                      width={24}
+                      height={24}
                       className="h-4 w-4 scale-100 transition-all duration-500"
                       alt=""
                     />
@@ -616,8 +616,8 @@ const BurgerMenu = () => {
                   <div className="flex h-full w-[49px] items-center justify-center border-r border-borderClr md:ml-2">
                     <Image
                       src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/66993ba5766aba613887ae89_3d-icon-youtube.avif"
-                      width={105}
-                      height={106}
+                      width={24}
+                      height={24}
                       className="h-4 w-4 scale-100 transition-all duration-500"
                       alt=""
                     />
@@ -697,8 +697,8 @@ const BurgerMenu = () => {
                 <div className="flex h-full w-[49px] items-center justify-center border-r border-borderClr md:w-[81px]">
                   <Image
                     src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6696c2853066e82e7262382c_3d-icon-career.avif"
-                    width={105}
-                    height={106}
+                    width={24}
+                    height={24}
                     className="h-4 w-4 scale-100 transition-all duration-500 md:h-6 md:w-6"
                     alt=""
                   />
@@ -716,8 +716,8 @@ const BurgerMenu = () => {
                 <div className="flex h-full w-[49px] items-center justify-center border-r border-borderClr md:w-[81px] md:border-l">
                   <Image
                     src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6696c2853e6bc95850a83d06_3d-icon-heart.avif"
-                    width={105}
-                    height={106}
+                    width={24}
+                    height={24}
                     className="h-4 w-4 scale-100 transition-all duration-500 md:h-6 md:w-6"
                     alt=""
                   />
@@ -740,8 +740,8 @@ const BurgerMenu = () => {
                 <div className="flex h-full w-[49px] items-center justify-center border-r border-borderClr md:ml-2">
                   <Image
                     src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/66993ba544733d8223ced8bc_3d-icon-linkedin.avif"
-                    width={105}
-                    height={106}
+                    width={24}
+                    height={24}
                     className="h-4 w-4 scale-100 transition-all duration-500"
                     alt=""
                   />
@@ -754,8 +754,8 @@ const BurgerMenu = () => {
                 <div className="flex h-full w-[49px] items-center justify-center border-r border-borderClr md:ml-2">
                   <Image
                     src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/66993ba5766aba613887ae89_3d-icon-youtube.avif"
-                    width={105}
-                    height={106}
+                    width={24}
+                    height={24}
                     className="h-4 w-4 scale-100 transition-all duration-500"
                     alt=""
                   />

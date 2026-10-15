@@ -1,51 +1,36 @@
-import React from 'react'
-import TeamList from './teamList'
-import ContactBtn from './contactBtn'
 import Image from 'next/image'
+import { ContactButton } from '@/components/ui/ContactButton'
+import { asset } from '@/lib/cdn'
+import TeamList from './teamList'
+
+const BADGES = [
+  '665e5691d6207ae5cceb5751_Frameclay-badges-1.svg',
+  '665e56913217b03853d1938e_Frameclay-badges-3.svg',
+  '665e569119b1a5bcb09d8a43_Frameclay-badges-2.svg',
+  '665e5691567055ec23d68353_Frameclay-badges.svg',
+]
 
 const Reviews = () => {
   return (
-    <div className="mx-auto max-w-[1240px] px-5 py-[16px] md:px-9 md:py-[32px] lg:px-6 lg:py-[64px]">
+    <div className="container-page py-[16px] md:py-[32px] lg:py-[64px]">
       <div className="lg:flex">
         <div className="mb-8 flex flex-col items-center lg:basis-1/2 lg:items-start">
           <div className="mb-3 text-center text-3xl md:text-4xl lg:text-start lg:text-5xl">
             A platform & people you can trust
           </div>
-          <ContactBtn />
+          <ContactButton />
         </div>
         <div className="flex w-full gap-[20px] lg:basis-1/2">
-          <Image
-            src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/665e5691d6207ae5cceb5751_Frameclay-badges-1.svg"
-            loading="lazy"
-            width={108}
-            height={140}
-            alt=""
-            className="w-[calc((100%-60px)/4)] flex-auto"
-          />
-          <Image
-            src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/665e56913217b03853d1938e_Frameclay-badges-3.svg"
-            loading="lazy"
-            width={108}
-            height={140}
-            alt=""
-            className="w-[calc((100%-60px)/4)] flex-auto"
-          />
-          <Image
-            src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/665e569119b1a5bcb09d8a43_Frameclay-badges-2.svg"
-            loading="lazy"
-            width={108}
-            height={140}
-            alt=""
-            className="w-[calc((100%-60px)/4)] flex-auto"
-          />
-          <Image
-            src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/665e5691567055ec23d68353_Frameclay-badges.svg"
-            loading="lazy"
-            width={108}
-            height={140}
-            alt=""
-            className="w-[calc((100%-60px)/4)] flex-auto"
-          />
+          {BADGES.map((file) => (
+            <Image
+              key={file}
+              src={asset(file)}
+              width={108}
+              height={140}
+              alt=""
+              className="w-[calc((100%-60px)/4)] flex-auto"
+            />
+          ))}
         </div>
       </div>
 
