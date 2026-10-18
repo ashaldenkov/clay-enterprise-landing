@@ -54,7 +54,7 @@ const CUSTOMER_LOGOS = [
   },
 ]
 
-const TeamList = () => {
+export default function CustomerLogos() {
   return (
     <div className="grid grid-cols-3 grid-rows-6 gap-x-5 md:grid-cols-6 md:grid-rows-3 lg:grid-cols-9 lg:grid-rows-2">
       {CUSTOMER_LOGOS.map((logo) => (
@@ -70,5 +70,3 @@ const TeamList = () => {
     </div>
   )
 }
-
-export default TeamList

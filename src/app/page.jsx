@@ -1,27 +1,35 @@
-import CustomersSay from '@/components/customersSay'
-import Features from '@/components/features'
-import Footer from '@/components/footer'
-import Header from '@/components/header'
-import Integration from '@/components/integration'
-import Intro from '@/components/intro'
-import Learning from '@/components/learning'
-import Options from '@/components/options'
-import Reviews from '@/components/reviews'
+import Footer from '@/components/layout/Footer'
+import Header from '@/components/layout/Header'
+import Consolidate from '@/components/sections/Consolidate'
+import DataTabs from '@/components/sections/DataTabs'
+import Hero from '@/components/sections/Hero'
+import Highlights from '@/components/sections/Highlights'
+import Resources from '@/components/sections/Resources'
+import SalesforcePackage from '@/components/sections/SalesforcePackage'
+import Team from '@/components/sections/Team'
+import TechStack from '@/components/sections/TechStack'
+import Testimonials from '@/components/sections/Testimonials'
+import Trust from '@/components/sections/Trust'
+import UseCases from '@/components/sections/UseCases'
 
 export default function Home() {
   return (
     <>
       <Header />
       <main>
-        <Intro />
-        <Options />
-        <Features />
-        <Integration />
-        <Reviews />
-        <CustomersSay />
-        <Learning />
-        <Footer />
+        <Hero />
+        <Consolidate />
+        <DataTabs />
+        <Highlights />
+        <UseCases />
+        <SalesforcePackage />
+        <TechStack />
+        <Team />
+        <Trust />
+        <Testimonials />
+        <Resources />
       </main>
+      <Footer />
     </>
   )
 }

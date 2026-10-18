@@ -3,7 +3,7 @@
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
 import Image from 'next/image'
-import { SlideNextButton, SlidePrevButton } from './SwiperButtons'
+import { SlideNextButton, SlidePrevButton } from '@/components/SwiperButtons'
 import useWindowsize from '@/hooks/useWindowsize'
 
 const QUOTE_ICON = '/images/testimonials/quote.svg'
@@ -123,7 +123,7 @@ const TESTIMONIALS = [
   },
 ]
 
-const CustomersSay = () => {
+export default function Testimonials() {
   const size = useWindowsize()
 
   let swiperContainerStyle = ''
@@ -140,7 +140,7 @@ const CustomersSay = () => {
   }
 
   return (
-    <div className="mx-auto max-w-[1240px]">
+    <section className="mx-auto max-w-[1240px]">
       <Swiper
         spaceBetween={20}
         slidesPerView={slidesPerView}
@@ -151,9 +151,9 @@ const CustomersSay = () => {
           slot="container-start"
           className="md:flex md:items-end md:justify-between"
         >
-          <div className="mb-8 basis-[50%] text-3xl md:text-4xl lg:text-5xl">
+          <h2 className="mb-8 basis-[50%] text-3xl md:text-4xl lg:text-5xl">
             What our customers say about us...
-          </div>
+          </h2>
           <div className="mb-8 flex items-end gap-4">
             <SlidePrevButton />
             <SlideNextButton />
@@ -168,7 +168,7 @@ const CustomersSay = () => {
             >
               <div className="flex h-full w-full flex-col justify-between gap-4 rounded-sm bg-white p-4">
                 <Image src={QUOTE_ICON} width={17} height={12} alt="" />
-                <div>{item.quote}</div>
+                <blockquote>{item.quote}</blockquote>
                 <div className="mt-auto flex items-start justify-between border-t border-black pt-8">
                   <div className="flex items-end gap-2">
                     <Image
@@ -195,8 +195,6 @@ const CustomersSay = () => {
           </SwiperSlide>
         ))}
       </Swiper>
-    </div>
+    </section>
   )
 }
-
-export default CustomersSay

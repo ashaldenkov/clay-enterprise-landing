@@ -7,9 +7,9 @@ import useDelayUnmount from '@/hooks/useDelayUnmount'
 import useScrollLock from '@/hooks/useScrollLock'
 import { ClayLogo } from '@/components/ui/ClayLogo'
 import { ContactButton } from '@/components/ui/ContactButton'
-import BurgerMenu from './burgerMenu'
+import BurgerMenu from './BurgerMenu'
 
-const Header = () => {
+export default function Header() {
   const [hamburgerOpen, setHamburgerOpen] = useState(false)
   const showDiv = useDelayUnmount(hamburgerOpen, 250)
   useScrollLock(hamburgerOpen)
@@ -17,7 +17,7 @@ const Header = () => {
   const genericHamburgerLine = `h-[2px] w-4 my-[2px] bg-black transition ease transform duration-300`
 
   return (
-    <div>
+    <header>
       <div className="relative z-20 flex h-[76px] w-full items-center justify-between border-b bg-white px-2 text-sm lg:fixed lg:h-[64px] lg:px-6">
         <Link href="" className="flex items-center px-2">
           <ClayLogo preload className="h-7" />
@@ -908,8 +908,6 @@ const Header = () => {
           <BurgerMenu />
         </div>
       )}
-    </div>
+    </header>
   )
 }
-
-export default Header

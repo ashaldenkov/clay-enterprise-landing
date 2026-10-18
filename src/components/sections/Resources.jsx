@@ -3,7 +3,7 @@
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
 import Image from 'next/image'
-import { SlideNextButton, SlidePrevButton } from './SwiperButtons'
+import { SlideNextButton, SlidePrevButton } from '@/components/SwiperButtons'
 import useWindowsize from '@/hooks/useWindowsize'
 import { ArrowLink } from '@/components/ui/ArrowLink'
 
@@ -75,7 +75,7 @@ const RESOURCES = [
   },
 ]
 
-const Learning = () => {
+export default function Resources() {
   const size = useWindowsize()
 
   let secondSwiperContainerStyle = ''
@@ -92,7 +92,7 @@ const Learning = () => {
   }
 
   return (
-    <div className="mx-auto max-w-[1240px]">
+    <section className="mx-auto max-w-[1240px]">
       <Swiper
         spaceBetween={20}
         slidesPerView={secondSwiperSlidesPerView}
@@ -104,13 +104,13 @@ const Learning = () => {
           className="md:flex md:items-end md:justify-between"
         >
           <div className="mb-8 basis-[50%]">
-            <div className="text-3xl md:text-4xl lg:text-5xl">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl">
               Learn with our resources
-            </div>
-            <div className="mt-4 md:text-lg lg:text-xl">
+            </h2>
+            <p className="mt-4 md:text-lg lg:text-xl">
               Check out Clay University, read our GTM blog, or try out our top
               templates to transform your growth ideas into outreach in minutes.
-            </div>
+            </p>
           </div>
           <div className="mb-8 flex items-end gap-4">
             <SlidePrevButton />
@@ -132,8 +132,8 @@ const Learning = () => {
                     alt=""
                   />
                 </div>
-                <div className="mb-4 text-2xl">{item.title}</div>
-                <div className="mb-4">{item.description}</div>
+                <h3 className="mb-4 text-2xl">{item.title}</h3>
+                <p className="mb-4">{item.description}</p>
                 <ArrowLink
                   variant="text"
                   className="mt-auto text-sm whitespace-nowrap"
@@ -145,8 +145,6 @@ const Learning = () => {
           </SwiperSlide>
         ))}
       </Swiper>
-    </div>
+    </section>
   )
 }
-
-export default Learning

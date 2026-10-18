@@ -58,9 +58,9 @@ const LINK_GROUPS = [
   },
 ]
 
-const Footer = () => {
+export default function Footer() {
   return (
-    <div className="bg-black pb-[80px] text-white">
+    <footer className="bg-black pb-[80px] text-white">
       {/* prefooter */}
       <div className='flex flex-col items-center justify-center bg-[linear-gradient(to_bottom,rgba(0,0,0,0),black),url("/images/backgrounds/shapes.webp")] bg-cover bg-top-left bg-no-repeat px-4 py-[96px] md:py-[128px] lg:bg-top'>
         <div className="mb-8 text-center text-[41px] leading-tight font-bold md:text-6xl md:leading-none lg:text-7xl">
@@ -78,7 +78,10 @@ const Footer = () => {
       </div>
 
       {/* link groups */}
-      <div className="mx-auto my-[80px] w-[90vw] max-w-[1200px] min-[500px]:items-start md:flex lg:w-[85vw]">
+      <nav
+        aria-label="Footer"
+        className="mx-auto my-[80px] w-[90vw] max-w-[1200px] min-[500px]:items-start md:flex lg:w-[85vw]"
+      >
         {LINK_GROUPS.map((group) => (
           <div
             key={group.title}
@@ -99,7 +102,7 @@ const Footer = () => {
             </ul>
           </div>
         ))}
-      </div>
+      </nav>
 
       {/* copyright */}
       <div className="mb-6 flex max-w-[1200px] flex-col items-center min-[500px]:items-start min-[500px]:px-[5vw]">
@@ -119,8 +122,6 @@ const Footer = () => {
           </a>
         </p>
       </div>
-    </div>
+    </footer>
   )
 }
-
-export default Footer
