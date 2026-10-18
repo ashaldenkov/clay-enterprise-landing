@@ -4,7 +4,6 @@ import Image from 'next/image'
 import clsx from 'clsx'
 import { ArrowLink } from '@/components/ui/ArrowLink'
 import { ContactButton } from '@/components/ui/ContactButton'
-import { asset } from '@/lib/cdn'
 
 // background holds full class strings so Tailwind can detect them
 const DATA_TABS = [
@@ -15,9 +14,7 @@ const DATA_TABS = [
       'Search dozens of providers at once to get the best coverage on work email, mobile numbers, and more.',
     desktop: {
       image: {
-        src: asset(
-          '667c6fe5e3e6ba2b534ed974_1-contact-information-updated.webp',
-        ),
+        src: '/images/data-tabs/contact-information.webp',
         width: 550,
         height: 550,
       },
@@ -25,14 +22,12 @@ const DATA_TABS = [
     },
     mobile: {
       image: {
-        src: asset(
-          '667c7056ab522b4497a01523_1-contact-information-tablet.webp',
-        ),
+        src: '/images/data-tabs/contact-information-mobile.webp',
         width: 500,
         height: 500,
       },
       background:
-        'bg-[url("https://cdn.prod.website-files.com/61477f2c24a826836f969afe/65e5d9bcf1b8b39167d7d74a_claymation-green.webp"),linear-gradient(to_bottom,rgba(4,126,74,1),rgba(4,126,74,1))] bg-auto bg-right bg-no-repeat',
+        'bg-[url("/images/backgrounds/claymation-green.webp"),linear-gradient(to_bottom,rgba(4,126,74,1),rgba(4,126,74,1))] bg-auto bg-right bg-no-repeat',
     },
   },
   {
@@ -42,7 +37,7 @@ const DATA_TABS = [
       'Continuously monitor buying signals across social media and the web and be alerted for key events like job changes and major news.',
     desktop: {
       image: {
-        src: asset('667b0818c24902a0664a415e_2_intent_data.webp'),
+        src: '/images/data-tabs/intent-data.webp',
         width: 550,
         height: 550,
       },
@@ -50,12 +45,12 @@ const DATA_TABS = [
     },
     mobile: {
       image: {
-        src: asset('667b0c33e0f11182606ad96b_2_intent_data-tablet.webp'),
+        src: '/images/data-tabs/intent-data-mobile.webp',
         width: 500,
         height: 500,
       },
       background:
-        'bg-[url("https://cdn.prod.website-files.com/61477f2c24a826836f969afe/66591051c3654b176d0fec29_blue-bg_1x.webp")] bg-auto bg-position-[left_-10px_center] bg-no-repeat',
+        'bg-[url("/images/backgrounds/blue.webp")] bg-auto bg-position-[left_-10px_center] bg-no-repeat',
     },
   },
   {
@@ -65,7 +60,7 @@ const DATA_TABS = [
       'Get the best coverage on standard firmographics and technographics like employee count by role and location, plus custom data points that our agents can find for your unique business.',
     desktop: {
       image: {
-        src: asset('667b0818682e595eca4f6425_3_firmographic.webp'),
+        src: '/images/data-tabs/firmographic.webp',
         width: 526,
         height: 526,
         className: 'h-full object-cover',
@@ -74,7 +69,7 @@ const DATA_TABS = [
     },
     mobile: {
       image: {
-        src: asset('667b0c330b0ee6ffac47decc_3_firmographic-tablet.webp'),
+        src: '/images/data-tabs/firmographic-mobile.webp',
         width: 526,
         height: 526,
       },
@@ -90,9 +85,7 @@ const DATA_TABS = [
   },
 ]
 
-const CLAYGENT_ARROW = asset(
-  '65aa9c8aaa5008abcaffbe28_img-claymation-arrow.png',
-)
+const CLAYGENT_ARROW = '/images/data-tabs/claygent-arrow.png'
 
 const CLAYGENT_QUESTIONS = [
   'When did this company last raise money?',
@@ -114,25 +107,25 @@ const HIGHLIGHTS = [
     title: 'Flexibility for any campaign',
     description:
       'Program our core components (account/lead lists, data enrichment, and messaging) into end-to-end campaigns for any outreach use case.',
-    icon: asset('667b3488cb96c15de1b10318_image%20407.png'),
+    icon: '/images/icons/flexibility.png',
   },
   {
     title: 'Best data coverage',
     description:
       'Clay consolidates 75+ major enrichment tools into one credit-based marketplace. Our waterfall enrichment feature helps you query multiple tools at once to find any data point.',
-    icon: asset('6696c286e983c04a8f9800b8_3d-icon-blog.avif'),
+    icon: '/images/icons/blog.avif',
   },
   {
     title: 'One data cleanroom',
     description:
       'Use Clay to access any enrichment tool and integrate with your CRM and email sending tool. Never deal with multiple contracts or points of security risk again.',
-    icon: asset('667b348158420e10a2d5b189_image%20406.png'),
+    icon: '/images/icons/cleanroom.png',
   },
   {
     title: 'Powerful AI research agent',
     description:
       'Automate complex, creative, and manual SDR research with our AI research agent—just provide a list of domains and ask any question.',
-    icon: asset('66968abd0cad0edd25c3a333_3d-icon-glass.avif'),
+    icon: '/images/icons/glass.avif',
   },
 ]
 
@@ -144,12 +137,12 @@ const USE_CASES = [
     description:
       'When you have thousands of inbound leads, you need to quickly prioritize the best fits for your team. Enrich leads with contact info, firmographics, and more — then use AI to draft the perfect outreach. Get to your leads faster.',
     image: {
-      src: asset('667ac73de112f572b1617117_table-inbound.webp'),
+      src: '/images/use-cases/inbound.webp',
       width: 800,
       height: 375,
     },
     background:
-      'bg-[url("https://cdn.prod.website-files.com/61477f2c24a826836f969afe/66591051c3654b176d0fec29_blue-bg_1x.webp")] bg-auto bg-position-[left_-10px] bg-no-repeat',
+      'bg-[url("/images/backgrounds/blue.webp")] bg-auto bg-position-[left_-10px] bg-no-repeat',
   },
   {
     id: 'outbound',
@@ -158,12 +151,12 @@ const USE_CASES = [
     description:
       'Are you targeting large customers? Use a white glove approach and leverage Clay to keep your CRM updated and automate the prospecting part of going after enterprises.',
     image: {
-      src: asset('667ac773196275007a83447f_table-outbound.webp'),
+      src: '/images/use-cases/outbound.webp',
       width: 800,
       height: 375,
     },
     background:
-      'bg-[url("https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6659103311a644d4b776fc2d_pink-bg_1x.webp")] bg-cover bg-position-[left_-10px_center] bg-no-repeat',
+      'bg-[url("/images/backgrounds/pink.webp")] bg-cover bg-position-[left_-10px_center] bg-no-repeat',
   },
 ]
 
@@ -211,7 +204,7 @@ const Features = () => {
               ) : (
                 <div
                   key={tab.id}
-                  className='flex h-full w-full animate-FadeIn flex-col items-center gap-2 overflow-y-scroll rounded-sm bg-borderBg bg-[url("https://cdn.prod.website-files.com/61477f2c24a826836f969afe/65aa9c8aaa5008abcaffbe28_img-claymation-arrow.png")] bg-size-[220px] bg-scroll bg-bottom-right bg-no-repeat'
+                  className='flex h-full w-full animate-FadeIn flex-col items-center gap-2 overflow-y-scroll rounded-sm bg-borderBg bg-[url("/images/data-tabs/claygent-arrow.png")] bg-size-[220px] bg-scroll bg-bottom-right bg-no-repeat'
                 >
                   <ClaygentQuestions />
                 </div>
@@ -375,7 +368,7 @@ const Features = () => {
       {/* salesforce */}
       <div className="py-[16px] md:py-[32px] lg:flex lg:gap-8 lg:py-[64px]">
         <Image
-          src={asset('670dc40ac05d9be676922330_SDR-package.avif')}
+          src={'/images/salesforce/sdr-package.avif'}
           width={500}
           height={500}
           sizes="(min-width: 1240px) 580px, (min-width: 1024px) 50vw, 100vw"

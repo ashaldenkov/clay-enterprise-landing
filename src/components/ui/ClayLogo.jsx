@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import clsx from 'clsx'
-import { asset } from '@/lib/cdn'
 
 // "clay" wordmark from clay.com (2024), filled with currentColor
 const WORDMARK_PATHS = [
@@ -18,7 +17,7 @@ export function ClayLogo({ className, preload = false }) {
       className={clsx('flex items-center gap-[0.15em]', className)}
     >
       <Image
-        src={asset('615f47680c88b1b9f8dee534_clay-logo-icon.webp')}
+        src={'/images/brand/clay-icon.webp'}
         width={100}
         height={74}
         alt=""

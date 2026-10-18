@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import { ContactButton } from '@/components/ui/ContactButton'
-import { asset } from '@/lib/cdn'
 import TeamList from './teamList'
 
 const Intro = () => {
@@ -26,7 +25,7 @@ const Intro = () => {
             <ContactButton />
             <div className="pointer-events-none absolute w-[90vw] translate-x-[50px] translate-y-[calc(50%+2px)] md:w-[76vw] lg:w-[40vw]">
               <Image
-                src={asset('66faaa52ed96045510ba6b81_img-claymation-chord.png')}
+                src={'/images/hero/claymation-chord.png'}
                 width={1600}
                 height={444}
                 sizes="(min-width: 1024px) 40vw, (min-width: 768px) 76vw, 90vw"

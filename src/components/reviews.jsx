@@ -1,13 +1,18 @@
 import Image from 'next/image'
 import { ContactButton } from '@/components/ui/ContactButton'
-import { asset } from '@/lib/cdn'
 import TeamList from './teamList'
 
-const BADGES = [
-  '665e5691d6207ae5cceb5751_Frameclay-badges-1.svg',
-  '665e56913217b03853d1938e_Frameclay-badges-3.svg',
-  '665e569119b1a5bcb09d8a43_Frameclay-badges-2.svg',
-  '665e5691567055ec23d68353_Frameclay-badges.svg',
+const G2_BADGES = [
+  { src: '/images/badges/g2-best-results.svg', title: 'Best Results' },
+  {
+    src: '/images/badges/g2-best-relationship.svg',
+    title: 'Best Relationship',
+  },
+  {
+    src: '/images/badges/g2-most-implementable.svg',
+    title: 'Most Implementable',
+  },
+  { src: '/images/badges/g2-high-performer.svg', title: 'High Performer' },
 ]
 
 const Reviews = () => {
@@ -21,13 +26,13 @@ const Reviews = () => {
           <ContactButton />
         </div>
         <div className="flex w-full gap-[20px] lg:basis-1/2">
-          {BADGES.map((file) => (
+          {G2_BADGES.map((badge) => (
             <Image
-              key={file}
-              src={asset(file)}
+              key={badge.src}
+              src={badge.src}
               width={108}
               height={140}
-              alt=""
+              alt={`G2 ${badge.title}, Spring 2024`}
               className="w-[calc((100%-60px)/4)] flex-auto"
             />
           ))}

@@ -62,7 +62,7 @@ const Footer = () => {
   return (
     <div className="bg-black pb-[80px] text-white">
       {/* prefooter */}
-      <div className='flex flex-col items-center justify-center bg-[linear-gradient(to_bottom,rgba(0,0,0,0),black),url("https://cdn.prod.website-files.com/61477f2c24a826836f969afe/669941ab317c22673db64543_SHAPES-(1).webp")] bg-cover bg-top-left bg-no-repeat px-4 py-[96px] md:py-[128px] lg:bg-top'>
+      <div className='flex flex-col items-center justify-center bg-[linear-gradient(to_bottom,rgba(0,0,0,0),black),url("/images/backgrounds/shapes.webp")] bg-cover bg-top-left bg-no-repeat px-4 py-[96px] md:py-[128px] lg:bg-top'>
         <div className="mb-8 text-center text-[41px] leading-tight font-bold md:text-6xl md:leading-none lg:text-7xl">
           Start molding your dream campaigns today
         </div>

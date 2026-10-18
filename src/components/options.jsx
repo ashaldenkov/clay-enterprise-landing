@@ -26,10 +26,7 @@ const Options = () => {
             className="max-w-full"
             loading="lazy"
           >
-            <source
-              src="https://assets.clayrun.dev/video-clay-find-phone-number.mp4"
-              type="video/mp4"
-            />
+            <source src="/videos/find-phone-number.mp4" type="video/mp4" />
             <track
               src="/path/to/captions.vtt"
               kind="subtitles"

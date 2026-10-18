@@ -6,7 +6,6 @@ import Image from 'next/image'
 import { SlideNextButton, SlidePrevButton } from './SwiperButtons'
 import useWindowsize from '@/hooks/useWindowsize'
 import { ArrowLink } from '@/components/ui/ArrowLink'
-import { asset } from '@/lib/cdn'
 
 const RESOURCES = [
   {
@@ -15,7 +14,7 @@ const RESOURCES = [
       'Master Clay in a few core lessons. Uplevel your data enrichment, craft better outbound messages, and book more meetings.',
     cta: 'Learn with Clay',
     image: {
-      src: asset('667aaafa589fa709b9e5af02_uni.avif'),
+      src: '/images/resources/university.avif',
       width: 800,
       height: 483,
     },
@@ -26,7 +25,7 @@ const RESOURCES = [
       'Our best content on growing your GTM motion, from outbound sales automation to AI lead generation.',
     cta: 'Explore our blog',
     image: {
-      src: asset('66b1d628d8d2c551e76e54c1_img-automated-inbound.webp'),
+      src: '/images/resources/blog.webp',
       width: 800,
       height: 639,
     },
@@ -37,7 +36,7 @@ const RESOURCES = [
       'Browse through all the integrations you can connect to Clay in seconds and discover what you can do!',
     cta: 'Check integrations',
     image: {
-      src: asset('667aaad3cf4abed74dcdfc01_templates.webp'),
+      src: '/images/resources/integrations.webp',
       width: 800,
       height: 490,
     },
@@ -47,7 +46,7 @@ const RESOURCES = [
     description: 'Power your outbound campaigns with our best templates.',
     cta: 'Visit Clay templates',
     image: {
-      src: asset('667aaad276b3f971b3cb3947_templat.webp'),
+      src: '/images/resources/templates.webp',
       width: 800,
       height: 504,
     },
@@ -58,7 +57,7 @@ const RESOURCES = [
       'Hire a Clay Enterprise expert or find a Clay partner to help with your next project',
     cta: 'Explore Clay experts',
     image: {
-      src: asset('667ad04b00efbba934486bff_blog-grain.webp'),
+      src: '/images/resources/experts.webp',
       width: 500,
       height: 312,
     },
@@ -69,7 +68,7 @@ const RESOURCES = [
       'Clay’s Chrome Extension makes it wicked easy to find leads almost anywhere on the internet',
     cta: 'Explore Chrome Extension',
     image: {
-      src: asset('667ad04bb0260b5fc271d7b3_chrome-grain.webp'),
+      src: '/images/resources/chrome-extension.webp',
       width: 500,
       height: 312,
     },

@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import { ContactButton } from '@/components/ui/ContactButton'
-import { asset } from '@/lib/cdn'
 import ClayScreen from '@/images/clayScreen.png'
 
 const Integration = () => {
@@ -35,7 +34,7 @@ const Integration = () => {
           </div>
         </div>
         <Image
-          src={asset('667c38e1c437b5d2780211da_group-visual-leads.webp')}
+          src={'/images/team/group-visual.webp'}
           width={1600}
           height={645}
           sizes="(min-width: 1240px) 1192px, 95vw"
