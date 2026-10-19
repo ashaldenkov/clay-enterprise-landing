@@ -1,11 +1,6 @@
-'use client'
-
-import { Swiper, SwiperSlide } from 'swiper/react'
-import 'swiper/css'
 import Image from 'next/image'
-import { SlideNextButton, SlidePrevButton } from '@/components/SwiperButtons'
-import useWindowsize from '@/hooks/useWindowsize'
 import { ArrowLink } from '@/components/ui/ArrowLink'
+import { Carousel } from '@/components/ui/Carousel'
 
 const RESOURCES = [
   {
@@ -76,33 +71,10 @@ const RESOURCES = [
 ]
 
 export default function Resources() {
-  const size = useWindowsize()
-
-  let secondSwiperContainerStyle = ''
-  let secondSwiperSlidesPerView = 1
-
-  if (size?.width && size?.width >= 768 && size?.width && size?.width < 1024) {
-    secondSwiperContainerStyle = { padding: '96px 32px 128px 32px' }
-    secondSwiperSlidesPerView = 2.2
-  } else if (size?.width && size?.width >= 1024) {
-    secondSwiperContainerStyle = { padding: '64px 36px 96px 36px' }
-    secondSwiperSlidesPerView = 3
-  } else {
-    secondSwiperContainerStyle = { padding: '32px 20px 64px 20px' }
-  }
-
   return (
     <section className="mx-auto max-w-[1240px]">
-      <Swiper
-        spaceBetween={20}
-        slidesPerView={secondSwiperSlidesPerView}
-        style={secondSwiperContainerStyle}
-        wrapperClass="cursor-grab"
-      >
-        <div
-          slot="container-start"
-          className="md:flex md:items-end md:justify-between"
-        >
+      <Carousel
+        heading={
           <div className="mb-8 basis-[50%]">
             <h2 className="text-3xl md:text-4xl lg:text-5xl">
               Learn with our resources
@@ -112,39 +84,41 @@ export default function Resources() {
               templates to transform your growth ideas into outreach in minutes.
             </p>
           </div>
-          <div className="mb-8 flex items-end gap-4">
-            <SlidePrevButton />
-            <SlideNextButton />
-          </div>
-        </div>
-
+        }
+        breakpoints={{
+          768: { slidesPerView: 2.2 },
+          1024: { slidesPerView: 3 },
+        }}
+        className="px-5 pt-8 pb-16 md:px-8 md:pt-24 md:pb-32 lg:px-9 lg:pt-16 lg:pb-24"
+      >
         {RESOURCES.map((item) => (
-          <SwiperSlide key={item.title}>
-            <div className="h-[397px] w-full rounded-lg border border-inactiveTabsBorder bg-borderBg p-2 transition-shadow duration-400 lg:hover:shadow-[0_50px_80px_-40px_#0006]">
-              <div className="flex h-full w-full flex-col justify-between rounded-sm border border-inactiveTabsBorder bg-white p-4">
-                <div className="mb-4 h-[146px] w-full overflow-hidden rounded-lg">
-                  <Image
-                    src={item.image.src}
-                    width={item.image.width}
-                    height={item.image.height}
-                    sizes="(min-width: 1024px) 360px, (min-width: 768px) 45vw, 90vw"
-                    className="object-cover"
-                    alt=""
-                  />
-                </div>
-                <h3 className="mb-4 text-2xl">{item.title}</h3>
-                <p className="mb-4">{item.description}</p>
-                <ArrowLink
-                  variant="text"
-                  className="mt-auto text-sm whitespace-nowrap"
-                >
-                  {item.cta}
-                </ArrowLink>
+          <div
+            key={item.title}
+            className="h-[397px] w-full rounded-lg border border-inactiveTabsBorder bg-borderBg p-2 transition-shadow duration-400 lg:hover:shadow-[0_50px_80px_-40px_#0006]"
+          >
+            <div className="flex h-full w-full flex-col justify-between rounded-sm border border-inactiveTabsBorder bg-white p-4">
+              <div className="mb-4 h-[146px] w-full overflow-hidden rounded-lg">
+                <Image
+                  src={item.image.src}
+                  width={item.image.width}
+                  height={item.image.height}
+                  sizes="(min-width: 1024px) 360px, (min-width: 768px) 45vw, 90vw"
+                  className="object-cover"
+                  alt=""
+                />
               </div>
+              <h3 className="mb-4 text-2xl">{item.title}</h3>
+              <p className="mb-4">{item.description}</p>
+              <ArrowLink
+                variant="text"
+                className="mt-auto text-sm whitespace-nowrap"
+              >
+                {item.cta}
+              </ArrowLink>
             </div>
-          </SwiperSlide>
+          </div>
         ))}
-      </Swiper>
+      </Carousel>
     </section>
   )
 }

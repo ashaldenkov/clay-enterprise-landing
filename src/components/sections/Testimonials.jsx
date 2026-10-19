@@ -1,10 +1,5 @@
-'use client'
-
-import { Swiper, SwiperSlide } from 'swiper/react'
-import 'swiper/css'
 import Image from 'next/image'
-import { SlideNextButton, SlidePrevButton } from '@/components/SwiperButtons'
-import useWindowsize from '@/hooks/useWindowsize'
+import { Carousel } from '@/components/ui/Carousel'
 
 const QUOTE_ICON = '/images/testimonials/quote.svg'
 
@@ -124,77 +119,54 @@ const TESTIMONIALS = [
 ]
 
 export default function Testimonials() {
-  const size = useWindowsize()
-
-  let swiperContainerStyle = ''
-  let slidesPerView = 1
-
-  if (size?.width && size?.width >= 768 && size?.width && size?.width < 1024) {
-    swiperContainerStyle = { padding: '96px 32px' }
-    slidesPerView = 2
-  } else if (size?.width && size?.width >= 1024) {
-    swiperContainerStyle = { padding: '64px 36px' }
-    slidesPerView = 2.2
-  } else {
-    swiperContainerStyle = { padding: '32px 20px' }
-  }
-
   return (
     <section className="mx-auto max-w-[1240px]">
-      <Swiper
-        spaceBetween={20}
-        slidesPerView={slidesPerView}
-        style={swiperContainerStyle}
-        wrapperClass="cursor-grab"
-      >
-        <div
-          slot="container-start"
-          className="md:flex md:items-end md:justify-between"
-        >
+      <Carousel
+        heading={
           <h2 className="mb-8 basis-[50%] text-3xl md:text-4xl lg:text-5xl">
             What our customers say about us...
           </h2>
-          <div className="mb-8 flex items-end gap-4">
-            <SlidePrevButton />
-            <SlideNextButton />
-          </div>
-        </div>
-
+        }
+        breakpoints={{
+          768: { slidesPerView: 2 },
+          1024: { slidesPerView: 2.2 },
+        }}
+        className="px-5 py-8 md:px-8 md:py-24 lg:px-9 lg:py-16"
+      >
         {TESTIMONIALS.map((item) => (
-          <SwiperSlide key={item.author}>
-            <div
-              className="h-[533px] w-full rounded-lg p-2 transition-shadow duration-400 md:h-[492px] lg:h-[455px] lg:hover:shadow-[0_50px_80px_-40px_#0006]"
-              style={{ backgroundColor: item.accent }}
-            >
-              <div className="flex h-full w-full flex-col justify-between gap-4 rounded-sm bg-white p-4">
-                <Image src={QUOTE_ICON} width={17} height={12} alt="" />
-                <blockquote>{item.quote}</blockquote>
-                <div className="mt-auto flex items-start justify-between border-t border-black pt-8">
-                  <div className="flex items-end gap-2">
-                    <Image
-                      src={item.avatar}
-                      width={76}
-                      height={76}
-                      className="rounded-sm border-2 border-black"
-                      alt={item.author}
-                    />
-                    <div>
-                      <div>{item.author}</div>
-                      <div className="text-sm">{item.role}</div>
-                    </div>
-                  </div>
+          <div
+            key={item.author}
+            className="h-[533px] w-full rounded-lg p-2 transition-shadow duration-400 md:h-[492px] lg:h-[455px] lg:hover:shadow-[0_50px_80px_-40px_#0006]"
+            style={{ backgroundColor: item.accent }}
+          >
+            <div className="flex h-full w-full flex-col justify-between gap-4 rounded-sm bg-white p-4">
+              <Image src={QUOTE_ICON} width={17} height={12} alt="" />
+              <blockquote>{item.quote}</blockquote>
+              <div className="mt-auto flex items-start justify-between border-t border-black pt-8">
+                <div className="flex items-end gap-2">
                   <Image
-                    src={item.company.logo}
-                    width={item.company.width}
-                    height={item.company.height}
-                    alt={item.company.name}
+                    src={item.avatar}
+                    width={76}
+                    height={76}
+                    className="rounded-sm border-2 border-black"
+                    alt={item.author}
                   />
+                  <div>
+                    <div>{item.author}</div>
+                    <div className="text-sm">{item.role}</div>
+                  </div>
                 </div>
+                <Image
+                  src={item.company.logo}
+                  width={item.company.width}
+                  height={item.company.height}
+                  alt={item.company.name}
+                />
               </div>
             </div>
-          </SwiperSlide>
+          </div>
         ))}
-      </Swiper>
+      </Carousel>
     </section>
   )
 }
