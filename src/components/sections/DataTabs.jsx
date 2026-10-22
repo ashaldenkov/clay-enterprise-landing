@@ -135,43 +135,63 @@ export default function DataTabs() {
 
       {/* data tabs: desktop */}
       <div className="hidden lg:flex lg:items-center">
-        <div className="flex h-[550px] shrink-0 basis-1/2 justify-center">
-          {DATA_TABS.map(
-            (tab) =>
-              openTab === tab.id &&
-              (tab.desktop ? (
-                <div
-                  key={tab.id}
-                  className={clsx(
-                    'flex animate-FadeIn items-center justify-center overflow-hidden rounded-sm',
-                    tab.desktop.background,
-                  )}
-                >
-                  <Image
-                    src={tab.desktop.image.src}
-                    width={tab.desktop.image.width}
-                    height={tab.desktop.image.height}
-                    className={tab.desktop.image.className}
-                    alt=""
-                  />
-                </div>
-              ) : (
-                <ul
-                  key={tab.id}
-                  className='flex h-full w-full animate-FadeIn flex-col items-center gap-2 overflow-y-scroll rounded-sm bg-borderBg bg-[url("/images/data-tabs/claygent-arrow.png")] bg-size-[220px] bg-scroll bg-bottom-right bg-no-repeat'
-                >
-                  <ClaygentQuestions />
-                </ul>
-              )),
-          )}
+        {/* panels stay mounted so lazy images load before a click */}
+        <div className="grid h-[550px] shrink-0 basis-1/2 grid-rows-1">
+          {DATA_TABS.map((tab) => {
+            const isActive = openTab === tab.id
+            return (
+              <div
+                key={tab.id}
+                id={`${tab.id}-panel`}
+                role="tabpanel"
+                aria-labelledby={`${tab.id}-tab`}
+                inert={!isActive}
+                className={clsx(
+                  'col-start-1 row-start-1 flex justify-center',
+                  isActive
+                    ? 'opacity-100 transition-opacity duration-500'
+                    : 'invisible opacity-0',
+                )}
+              >
+                {tab.desktop ? (
+                  <div
+                    className={clsx(
+                      'flex items-center justify-center overflow-hidden rounded-sm',
+                      tab.desktop.background,
+                    )}
+                  >
+                    <Image
+                      src={tab.desktop.image.src}
+                      width={tab.desktop.image.width}
+                      height={tab.desktop.image.height}
+                      className={tab.desktop.image.className}
+                      alt=""
+                    />
+                  </div>
+                ) : (
+                  <ul className='flex h-full w-full flex-col items-center gap-2 overflow-y-scroll rounded-sm bg-borderBg bg-[url("/images/data-tabs/claygent-arrow.png")] bg-size-[220px] bg-scroll bg-bottom-right bg-no-repeat'>
+                    <ClaygentQuestions />
+                  </ul>
+                )}
+              </div>
+            )
+          })}
         </div>
-        <div className="mb-6 ml-[10%] basis-1/2">
+        <div
+          role="tablist"
+          aria-orientation="vertical"
+          className="mb-6 ml-[10%] basis-1/2"
+        >
           {DATA_TABS.map((tab) => {
             const isActive = openTab === tab.id
             return (
               <button
                 key={tab.id}
+                id={`${tab.id}-tab`}
                 type="button"
+                role="tab"
+                aria-selected={isActive}
+                aria-controls={`${tab.id}-panel`}
                 className={clsx(
                   'w-full border-b border-[#d8d8d8] pt-6 pr-8 pb-4 text-left',
                   isActive

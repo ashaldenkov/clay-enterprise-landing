@@ -26,7 +26,6 @@
   --animate-InAnimation: InAnimation 200ms ease-out forwards;
   --animate-OutAnimation: OutAnimation 200ms ease-in forwards;
   --animate-FadeIn: FadeIn 500ms ease-in forwards;
-  --animate-FadeOut: FadeOut 500ms ease-out forwards;
 
   @keyframes InAnimation {
     0% {
@@ -50,14 +49,6 @@
     }
     100% {
       opacity: 100%;
-    }
-  }
-  @keyframes FadeOut {
-    0% {
-      opacity: 100%;
-    }
-    100% {
-      opacity: 0;
     }
   }
 }

@@ -52,11 +52,18 @@ export default function UseCases() {
       </div>
 
       <div className="mt-[48px]">
-        <div className="mb-6 flex flex-col gap-4 lg:flex-row lg:gap-8">
+        <div
+          role="tablist"
+          className="mb-6 flex flex-col gap-4 lg:flex-row lg:gap-8"
+        >
           {USE_CASES.map((useCase) => (
             <button
               key={useCase.id}
+              id={`${useCase.id}-tab`}
               type="button"
+              role="tab"
+              aria-selected={useCaseTab === useCase.id}
+              aria-controls={`${useCase.id}-panel`}
               className={clsx(
                 'h-[50px] w-full rounded-sm border border-inactiveTabsBorder transition-all duration-300 hover:border-gray-300 hover:text-black',
                 useCaseTab === useCase.id
@@ -70,41 +77,49 @@ export default function UseCases() {
           ))}
         </div>
 
-        <div>
-          {USE_CASES.map((useCase) => (
-            <div
-              key={useCase.id}
-              className={clsx(
-                useCaseTab === useCase.id
-                  ? 'block animate-FadeIn lg:flex lg:gap-8'
-                  : 'hidden animate-FadeOut',
-              )}
-            >
-              <div className="mb-8 flex w-full flex-col rounded-sm border border-gray-300 p-6 md:p-10 lg:basis-1/2 lg:p-[80px]">
-                <h3 className="text-2xl md:text-[32px] md:leading-9">
-                  {useCase.title}
-                </h3>
-                <p className="mt-4 mb-6 leading-5">{useCase.description}</p>
-                <ContactButton />
-              </div>
-
+        <div className="grid items-start">
+          {USE_CASES.map((useCase) => {
+            const isActive = useCaseTab === useCase.id
+            return (
               <div
+                key={useCase.id}
+                id={`${useCase.id}-panel`}
+                role="tabpanel"
+                aria-labelledby={`${useCase.id}-tab`}
+                inert={!isActive}
                 className={clsx(
-                  'mb-8 flex aspect-square items-center justify-center overflow-hidden lg:basis-1/2',
-                  useCase.background,
+                  'col-start-1 row-start-1 lg:flex lg:gap-8',
+                  isActive
+                    ? 'opacity-100 transition-opacity duration-500'
+                    : 'invisible opacity-0',
                 )}
               >
-                <Image
-                  src={useCase.image.src}
-                  width={useCase.image.width}
-                  height={useCase.image.height}
-                  sizes="(min-width: 1024px) 540px, 85vw"
-                  alt=""
-                  className="w-[90%] rounded-xl border border-inactiveTabsBorder bg-[rgba(255,255,255,0.3)] p-2"
-                />
+                <div className="mb-8 flex w-full flex-col rounded-sm border border-gray-300 p-6 md:p-10 lg:basis-1/2 lg:p-[80px]">
+                  <h3 className="text-2xl md:text-[32px] md:leading-9">
+                    {useCase.title}
+                  </h3>
+                  <p className="mt-4 mb-6 leading-5">{useCase.description}</p>
+                  <ContactButton />
+                </div>
+
+                <div
+                  className={clsx(
+                    'mb-8 flex aspect-square items-center justify-center overflow-hidden lg:basis-1/2',
+                    useCase.background,
+                  )}
+                >
+                  <Image
+                    src={useCase.image.src}
+                    width={useCase.image.width}
+                    height={useCase.image.height}
+                    sizes="(min-width: 1024px) 540px, 85vw"
+                    alt=""
+                    className="w-[90%] rounded-xl border border-inactiveTabsBorder bg-[rgba(255,255,255,0.3)] p-2"
+                  />
+                </div>
               </div>
-            </div>
-          ))}
+            )
+          })}
         </div>
       </div>
     </section>
