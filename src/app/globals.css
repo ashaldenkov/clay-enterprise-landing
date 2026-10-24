@@ -23,26 +23,8 @@
   --text-small: 11px;
   --text-small--line-height: 11px;
 
-  --animate-InAnimation: InAnimation 200ms ease-out forwards;
-  --animate-OutAnimation: OutAnimation 200ms ease-in forwards;
   --animate-FadeIn: FadeIn 500ms ease-in forwards;
 
-  @keyframes InAnimation {
-    0% {
-      transform: translateY(-410px);
-    }
-    100% {
-      transform: translateY(0px);
-    }
-  }
-  @keyframes OutAnimation {
-    0% {
-      transform: translateY(0px);
-    }
-    100% {
-      transform: translateY(-410px);
-    }
-  }
   @keyframes FadeIn {
     0% {
       opacity: 0;

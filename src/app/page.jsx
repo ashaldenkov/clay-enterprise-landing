@@ -1,5 +1,5 @@
 import Footer from '@/components/layout/Footer'
-import Header from '@/components/layout/Header'
+import Header from '@/components/layout/header/Header'
 import Consolidate from '@/components/sections/Consolidate'
 import DataTabs from '@/components/sections/DataTabs'
 import Hero from '@/components/sections/Hero'
