@@ -6,8 +6,8 @@ import Hero from '@/components/sections/Hero'
 import Highlights from '@/components/sections/Highlights'
 import Resources from '@/components/sections/Resources'
 import SalesforcePackage from '@/components/sections/SalesforcePackage'
+import Security from '@/components/sections/Security'
 import Team from '@/components/sections/Team'
-import TechStack from '@/components/sections/TechStack'
 import Testimonials from '@/components/sections/Testimonials'
 import Trust from '@/components/sections/Trust'
 import UseCases from '@/components/sections/UseCases'
@@ -23,7 +23,7 @@ export default function Home() {
         <Highlights />
         <UseCases />
         <SalesforcePackage />
-        <TechStack />
+        <Security />
         <Team />
         <Trust />
         <Testimonials />

@@ -45,33 +45,6 @@ export default function Trust() {
         </p>
         <CustomerLogos />
       </div>
-
-      <div className="my-10 grid grid-cols-1 grid-rows-4 md:grid-cols-2 md:grid-rows-2 lg:grid-cols-4 lg:grid-rows-1">
-        <div className="border border-borderClr p-6">
-          <h3 className="text-lg">SOC 2</h3>
-          <p className="mt-4">
-            We are SOC 2 Type II compliant. Request our SOC 2 in our Trust
-            Center
-          </p>
-        </div>
-        <div className="border border-borderClr p-6">
-          <h3 className="text-lg">GDPR</h3>
-          <p className="mt-4">
-            Go to market anywhere in the world — let us handle compliance with
-            local laws.
-          </p>
-        </div>
-        <div className="border border-borderClr p-6">
-          <h3 className="text-lg">CCPA</h3>
-          <p className="mt-4">
-            Support your customer base with opt out and DNC support.
-          </p>
-        </div>
-        <div className="border border-borderClr p-6">
-          <h3 className="text-lg">ISO 27001 (coming soon)</h3>
-          <p className="mt-4">Securely connect your CRM and other systems.</p>
-        </div>
-      </div>
     </section>
   )
 }
