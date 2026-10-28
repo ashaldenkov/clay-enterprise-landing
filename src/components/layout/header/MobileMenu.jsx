@@ -139,62 +139,69 @@ export default function MobileMenu({ items }) {
         <span className={clsx(LINE, isOpen && '-translate-y-2 -rotate-45')} />
       </button>
 
-      {/* -z-10 lets the panel slide out from under the header bar */}
+      {/* the wrapper starts below the header bar and clips the sliding panel */}
       <div
         id="mobile-menu"
         inert={!isOpen}
         className={clsx(
-          'fixed inset-x-0 top-[76px] bottom-0 -z-10 overflow-y-auto bg-white text-sm transition-[translate,visibility] duration-200 lg:hidden',
-          isOpen ? 'translate-y-0' : 'invisible -translate-y-[410px]',
+          'fixed inset-x-0 top-[76px] bottom-0 overflow-hidden transition-[visibility] duration-300 lg:hidden',
+          !isOpen && 'invisible',
         )}
       >
-        {hasOpened && (
-          <nav aria-label="Mobile">
-            {items.map((item) => {
-              if (!item.groups) {
+        <div
+          className={clsx(
+            'h-full overflow-y-auto bg-white text-sm transition-transform duration-300',
+            !isOpen && '-translate-y-full',
+          )}
+        >
+          {hasOpened && (
+            <nav aria-label="Mobile">
+              {items.map((item) => {
+                if (!item.groups) {
+                  return (
+                    <Link key={item.label} href="#" className={ROW}>
+                      {item.label}
+                    </Link>
+                  )
+                }
+                const isExpanded = openSection === item.label
+                const panelId = `mobile-menu-${item.label.toLowerCase()}`
                 return (
-                  <Link key={item.label} href="#" className={ROW}>
-                    {item.label}
-                  </Link>
-                )
-              }
-              const isExpanded = openSection === item.label
-              const panelId = `mobile-menu-${item.label.toLowerCase()}`
-              return (
-                <div key={item.label}>
-                  <button
-                    type="button"
-                    aria-expanded={isExpanded}
-                    aria-controls={panelId}
-                    onClick={() =>
-                      setOpenSection(isExpanded ? null : item.label)
-                    }
-                    className={ROW}
-                  >
-                    {item.label}
-                    <ChevronDownIcon
-                      className={clsx(
-                        'ml-1 size-5 transition-transform duration-200',
-                        isExpanded && 'rotate-180',
-                      )}
-                    />
-                  </button>
-                  <div id={panelId} hidden={!isExpanded}>
-                    {item.groups.map((group) => (
-                      <Group key={group.title} group={group} />
-                    ))}
+                  <div key={item.label}>
+                    <button
+                      type="button"
+                      aria-expanded={isExpanded}
+                      aria-controls={panelId}
+                      onClick={() =>
+                        setOpenSection(isExpanded ? null : item.label)
+                      }
+                      className={ROW}
+                    >
+                      {item.label}
+                      <ChevronDownIcon
+                        className={clsx(
+                          'ml-1 size-5 transition-transform duration-200',
+                          isExpanded && 'rotate-180',
+                        )}
+                      />
+                    </button>
+                    <div id={panelId} hidden={!isExpanded}>
+                      {item.groups.map((group) => (
+                        <Group key={group.title} group={group} />
+                      ))}
+                    </div>
                   </div>
-                </div>
-              )
-            })}
-            <Link
-              href="#"
-              className="m-4 inline-block h-10 rounded-sm bg-black px-4 py-2 text-white md:m-6"
-            >
-              Start building — for free
-            </Link>
-          </nav>
-        )}
+                )
+              })}
+              <Link
+                href="#"
+                className="m-4 inline-block h-10 rounded-sm bg-black px-4 py-2 text-white md:m-6"
+              >
+                Start building — for free
+              </Link>
+            </nav>
+          )}
+        </div>
       </div>
     </>
   )
