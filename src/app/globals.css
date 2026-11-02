@@ -26,6 +26,7 @@
   --text-small--line-height: 11px;
 
   --animate-FadeIn: FadeIn 500ms ease-in forwards;
+  --animate-TagIn: TagIn 600ms cubic-bezier(0.22, 1, 0.36, 1) backwards;
 
   @keyframes FadeIn {
     0% {
@@ -33,6 +34,14 @@
     }
     100% {
       opacity: 100%;
+    }
+  }
+
+  /* no end frame: the tag animates to its own opacity */
+  @keyframes TagIn {
+    from {
+      opacity: 0;
+      translate: 0 1.5rem;
     }
   }
 }
