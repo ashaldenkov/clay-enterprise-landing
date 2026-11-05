@@ -30,6 +30,7 @@ export default function Hero() {
                 height={444}
                 sizes="(min-width: 1024px) 40vw, (min-width: 768px) 76vw, 90vw"
                 preload
+                fetchPriority="high"
                 alt=""
               />
             </div>
