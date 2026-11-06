@@ -6,7 +6,7 @@ A responsive recreation of the [Clay Enterprise page](https://www.clay.com/enter
 
 ## Why this project exists
 
-It started as a **test assignment for 23BG**: rebuild the clay.com/enterprise page in Next.js and Tailwind CSS as close to the original as possible.
+It started as a **test assignment**: rebuild the clay.com/enterprise page in Next.js and Tailwind CSS as close to the original as possible.
 
 > **Disclaimer.** This is a non-commercial study project. It is not affiliated with or endorsed by Clay Labs. The Clay name, logo, copy, images and videos belong to Clay and are used here only to recreate the page. Search engines are asked not to index the demo.
 
